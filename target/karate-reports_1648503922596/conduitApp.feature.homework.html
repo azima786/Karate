@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>conduitApp.feature.homework</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-03-28 04:42:25 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>Get list of global articles</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/homework.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Articles</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:15]</span>
+                <span class="scenario-name">Get list of global articles</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1051</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">16:42:24.543 &lt;&lt; lock released, cached callSingle: classpath:conduitApp/helpers/CreateToken.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.6.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">conduitApp.helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">744</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6.0.call.0.3">16:42:23.741 karate.env system property was: null 
+16:42:23.753 &gt;&gt; lock acquired, begin callSingle: classpath:conduitApp/helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">34</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">701</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6.0.call.0.6">16:42:24.120 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 56
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;azima@gmail.com&quot;}}
+
+16:42:24.536 response time in milliseconds: 415
+1 &lt; 200
+1 &lt; Date: Mon, 28 Mar 2022 21:38:55 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14c-1o4415l8TMXkzUGC2EQj8c1YYSA&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Hv%2BDQXVCqQR31%2BoEBJxXXolK0Yi7txwuUfJRvCHtOf%2BOazf%2FLpANPCmQEaAy2EecrBeUja0Qz%2Fc1DWMXmue5mrrTIxzl6J2LWqAbeC9q%2FK4vkCyXJbd%2BVGWGdD96%2FMwhPoEN&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f3383fa68ad8167-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;bio&quot;:null,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzUsImV4cCI6MTY1MzY4NzUzNX0.j-95xy5NWy4BZw_WqSiKwcOwsiRkLRx5Vn496uDCR80&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;azima@gmail.com&quot;,&quot;password&quot;: &quot;123456&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">290</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">16:42:24.552 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzUsImV4cCI6MTY1MzY4NzUzNX0.j-95xy5NWy4BZw_WqSiKwcOwsiRkLRx5Vn496uDCR80
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 56
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;azima@gmail.com&quot;}}
+
+16:42:24.838 response time in milliseconds: 285
+1 &lt; 200
+1 &lt; Date: Mon, 28 Mar 2022 21:38:56 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14c-8ri8vd5fLd2rxmk13t1dsSYK2y8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=xg1N91nd3fTmQjkDF2%2B5I31QocIjeGeokCCE1LMvK44Aljv1QScj3P8SiLGtDtAJKW04RUgv4mppGIfGeNLCHpkJ93uS7Iga0aHsAe4O8OKZ2xd%2FGBoD6cNyL48xE7PElzYw&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f3383fc79409ef8-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;bio&quot;:null,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzYsImV4cCI6MTY1MzY4NzUzNn0.RsKNw_7IhP0H9-8Jwds60FbUL02MUMKrXg0RoUAHKtE&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:conduitApp/helpers/CreateToken.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">314</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">16:42:25.154 &lt;&lt; lock released, cached callonce: read(&#39;classpath:conduitApp/helpers/CreateToken.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.12.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">conduitApp.helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">295</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12.0.call.0.3">16:42:24.843 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:conduitApp/helpers/CreateToken.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">293</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12.0.call.0.6">16:42:24.860 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzUsImV4cCI6MTY1MzY4NzUzNX0.j-95xy5NWy4BZw_WqSiKwcOwsiRkLRx5Vn496uDCR80
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 56
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;azima@gmail.com&quot;}}
+
+16:42:25.149 response time in milliseconds: 288
+1 &lt; 200
+1 &lt; Date: Mon, 28 Mar 2022 21:38:56 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14c-8ri8vd5fLd2rxmk13t1dsSYK2y8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=EfFEfelloBVQEc17d57nrDTwmw44BcxKO3AwQbOHhsJ4O%2BcRyACpYsP%2FfJuH%2FlKj43%2Bqg1oeVPWXVv3czyTQkCDnZfz%2B3zNnszk%2BPJo5mp%2FqNjYZEWqM1u8pUJLGIZydAJvz&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f3383fe6ccc9eb3-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;bio&quot;:null,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzYsImV4cCI6MTY1MzY4NzUzNn0.RsKNw_7IhP0H9-8Jwds60FbUL02MUMKrXg0RoUAHKtE&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">16:42:25.155 over-writing existing variable &#39;token&#39; with new value: tokenResponse.authToken
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;articles?limit=10&amp;offset=0&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">437</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">16:42:25.157 request:
+2 &gt; GET https://api.realworld.io/api/articles?limit=10&amp;offset=0
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDg1MDM1MzUsImV4cCI6MTY1MzY4NzUzNX0.j-95xy5NWy4BZw_WqSiKwcOwsiRkLRx5Vn496uDCR80
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+16:42:25.592 response time in milliseconds: 432
+2 &lt; 200
+2 &lt; Date: Mon, 28 Mar 2022 21:38:57 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;f13-c4Wp4xaoKj40xctaJXxmCcDkB1k&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=HJqnNPSsDB7VSlFwd0s2sStMDuWkAUC4fmHYI7vqwmUM3siV78pV%2FdKCCpwQde%2BMmU7rdzKGnxImAh%2F8%2Bov%2BIwb7RRce4JmOTjXn%2FmHIf1Q1MpAb6KBdf3I4hAVFY2%2Fv04g9&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 6f3384005e2f6781-DFW
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articlesCount&quot;:11,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Qarth&quot;,&quot;title&quot;:&quot;Maron Volmark&quot;,&quot;body&quot;:&quot;Nothing burns like the cold.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Maron-Volmark-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;Edwyn Frey&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Edwyn-Frey-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;buh1 bug&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh1-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh bug&quot;,&quot;title&quot;:&quot;buh bug&quot;,&quot;body&quot;:&quot;buh bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Bla blu&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Bla-blu-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Delete&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Delete-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;this is topic&quot;,&quot;title&quot;:&quot;Some title&quot;,&quot;body&quot;:&quot;this is article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Some-title-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;favoritesCount&quot;:1604,&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;favoritesCount&quot;:1034,&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref failed">19</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.articlesCount == 3</span>
+      </div>
+    </div>
+    <div class="time-cell failed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">16:42:25.602 classpath:conduitApp/feature/homework.feature:19
+And match response.articlesCount == 3
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  11
+  3
+
+classpath:conduitApp/feature/homework.feature:19
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.articles[0].title contains &quot;Create a new implemenation&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.articles[0].author.username == &quot;Grme&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.articles[1].title contains &quot;medium&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

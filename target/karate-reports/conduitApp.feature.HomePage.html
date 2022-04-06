@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>conduitApp.feature.HomePage</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-06 02:36:07 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>get all tags</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:21]"><span>[2:21]</span> <span>get 10 articles</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/HomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test for the home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">get all tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>225</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">14:36:03.822 karate.env system property was: null 
+14:36:04.720 this thread waited 886 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">213</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">14:36:04.727 request:
+1 &gt; GET https://api.realworld.io/api/tags
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:36:04.937 response time in milliseconds: 209
+1 &lt; 200
+1 &lt; Date: Wed, 06 Apr 2022 19:32:40 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;44-/BOFNqaPYAsbgDo80ZQcPOFf7l8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=iDdAL68HF9s9kH6Zl38dGRoV38YsiH%2FpZBLAwSGxC8pAB%2B26Icvscj6fjGdddLKwj%2FXsfzZclYGm8jE67Bao7RqSxG63f%2BtEcpSt7bT73nKHCKhXYNgZfP2Ac%2BhakXlwNV5N&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f7cf369bd300ba1-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;tags&quot;:[&quot;welcome&quot;,&quot;implementations&quot;,&quot;codebaseShow&quot;,&quot;introduction&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;welcome&#39;, &#39;implementations&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags !contains &#39;truck&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags contains any [&#39;introduction&#39;, &#39;cat&#39;, &#39;fish&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#    And match response contains only [&#39;welcome&#39;, &#39;implementations&#39;, &#39;codebaseShow&#39;, &#39;introduction&#39;]</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags == &quot;#array&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.tags == &quot;#string&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:21]</span>
+                <span class="scenario-name">get 10 articles</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>722</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:21]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">14:36:03.822 karate.env system property was: null 
+14:36:04.720 this thread waited 887 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def timeValidator = read(&#39;classpath:conduitApp/helpers/timeValidator.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#      Given param limit = 10</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#      Given param offset = 0</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset: 0 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">706</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27">14:36:04.743 request:
+1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:36:05.444 response time in milliseconds: 698
+1 &lt; 200
+1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;f10-zklZlMebluLIW4oyrSU5j2N5Fo8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=eZ1lDL%2FNP82g3SxV%2Fx0kV8hp2JZKWQuAOPq%2BeB3l7nvNDv2%2Blqr3JthG9yZPL1OdSbRih%2Bv7nZANrTORCx7BT7j0%2FBYhECmeVHpHJkLtd54O%2Fo2qQqsOSDuFejl3kKFdRUAO&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f7cf36a2fb29ed6-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articlesCount&quot;:11,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Qarth&quot;,&quot;title&quot;:&quot;Maron Volmark&quot;,&quot;body&quot;:&quot;Nothing burns like the cold.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Maron-Volmark-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;Edwyn Frey&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Edwyn-Frey-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;buh1 bug&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh1-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh bug&quot;,&quot;title&quot;:&quot;buh bug&quot;,&quot;body&quot;:&quot;buh bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Bla blu&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Bla-blu-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Delete&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Delete-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;this is topic&quot;,&quot;title&quot;:&quot;Some title&quot;,&quot;body&quot;:&quot;this is article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Some-title-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;favoritesCount&quot;:1783,&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;favoritesCount&quot;:1105,&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

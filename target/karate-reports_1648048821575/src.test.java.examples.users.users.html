@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.users</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-03-23 10:19:43 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>get all tags</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:13]"><span>[2:13]</span> <span>get 10 articles</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test for the home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">get all tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>633</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.realworld.io/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:19:41.908 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">615</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">10:19:42.155 request:
+1 &gt; GET https://api.realworld.io/api/tags
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:19:42.553 response time in milliseconds: 380
+1 &lt; 200
+1 &lt; Date: Wed, 23 Mar 2022 15:16:05 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;44-/BOFNqaPYAsbgDo80ZQcPOFf7l8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=IXutmKNEYyqZ9Jwpx4jIKKXC1PJy3aXl%2Bm%2FuMyFeuXDAnC3KfeSRPYeUG1O02%2BfgVQKSWJI1hBqtDHQPepEgsx05SBf4onlu%2FrkgCvFCh0K431vHGXa8p%2F3umsGjWLswecKh&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f082050bd86e77f-ATL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;tags&quot;:[&quot;welcome&quot;,&quot;implementations&quot;,&quot;codebaseShow&quot;,&quot;introduction&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;welcome&#39;, &#39;tag&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">10:19:42.567 src/test/java/examples/users/users.feature:11
+And match response.tags contains [&#39;welcome&#39;, &#39;tag&#39;]
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - tag (LIST:LIST)
+  [&quot;welcome&quot;,&quot;implementations&quot;,&quot;codebaseShow&quot;,&quot;introduction&quot;]
+  [&quot;welcome&quot;,&quot;tag&quot;]
+
+    $[3] | not equal (STRING:STRING)
+    &#39;introduction&#39;
+    &#39;tag&#39;
+
+    $[2] | not equal (STRING:STRING)
+    &#39;codebaseShow&#39;
+    &#39;tag&#39;
+
+    $[1] | not equal (STRING:STRING)
+    &#39;implementations&#39;
+    &#39;tag&#39;
+
+    $[0] | not equal (STRING:STRING)
+    &#39;welcome&#39;
+    &#39;tag&#39;
+
+src/test/java/examples/users/users.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:13]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:13]</span>
+                <span class="scenario-name">get 10 articles</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>431</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:13]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:13]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.realworld.io/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:19:42.573 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#      Given param limit = 10</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#      Given param offset = 0</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset: 0 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">429</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">10:19:42.583 request:
+1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:19:43.004 response time in milliseconds: 420
+1 &lt; 200
+1 &lt; Date: Wed, 23 Mar 2022 15:16:06 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;6dc-vip/M7FZNxUT3Neeb84Sgh6tQOU&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=GxWLfoAqgAW%2Fi6Wdct3QtN3maC2MT61OqtOuYwgM8Y2Mc8WZjAC2%2BNeCek7F%2F36n4SmXhWddJe8tsQNEd8jlYKc8RQEkuxb7b2a2AcZZdw5Bkm2qXlsaLQigDO4hRsbbuclw&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f08205279f31877-ATL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articlesCount&quot;:3,&quot;articles&quot;:[{&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;favoritesCount&quot;:1544,&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;favoritesCount&quot;:985,&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;welcome&quot;,&quot;introduction&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more&quot;,&quot;title&quot;:&quot;Welcome to RealWorld project&quot;,&quot;body&quot;:&quot;See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec&quot;,&quot;favoritesCount&quot;:654,&quot;slug&quot;:&quot;Welcome-to-RealWorld-project-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;favorited&quot;:false}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

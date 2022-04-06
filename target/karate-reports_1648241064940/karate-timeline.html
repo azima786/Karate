@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"conduitApp\/feature\/Articles[1:23]","start":1648240958853,"end":1648240960904,"title":"conduitApp\/feature\/Articles[1:23] 15:42:38.853-15:42:40.904 Create and delete an article"},{"id":2,"group":1,"content":"conduitApp\/feature\/SignUp[2.1:35]","start":1648240962691,"end":1648240963060,"title":"conduitApp\/feature\/SignUp[2.1:35] 15:42:42.691-15:42:43.060 New user sign up: Username taken"},{"id":3,"group":1,"content":"conduitApp\/feature\/SignUp[2.2:36]","start":1648240963078,"end":1648240963310,"title":"conduitApp\/feature\/SignUp[2.2:36] 15:42:43.078-15:42:43.310 New user sign up: Username taken","className":"failed"},{"id":4,"group":1,"content":"conduitApp\/feature\/SignUp[2.3:37]","start":1648240963327,"end":1648240963558,"title":"conduitApp\/feature\/SignUp[2.3:37] 15:42:43.327-15:42:43.558 New user sign up: Username taken","className":"failed"},{"id":5,"group":1,"content":"conduitApp\/feature\/SignUp[2.4:38]","start":1648240963567,"end":1648240963810,"title":"conduitApp\/feature\/SignUp[2.4:38] 15:42:43.567-15:42:43.810 New user sign up: Username taken"},{"id":6,"group":1,"content":"conduitApp\/feature\/SignUp[2.5:39]","start":1648240963820,"end":1648240964054,"title":"conduitApp\/feature\/SignUp[2.5:39] 15:42:43.820-15:42:44.054 New user sign up: Username taken","className":"failed"},{"id":7,"group":1,"content":"conduitApp\/feature\/SignUp[2.6:40]","start":1648240964063,"end":1648240964305,"title":"conduitApp\/feature\/SignUp[2.6:40] 15:42:44.063-15:42:44.305 New user sign up: Username taken"},{"id":8,"group":1,"content":"conduitApp\/feature\/SignUp[2.7:41]","start":1648240964324,"end":1648240964566,"title":"conduitApp\/feature\/SignUp[2.7:41] 15:42:44.324-15:42:44.566 New user sign up: Username taken"},{"id":9,"group":1,"content":"conduitApp\/feature\/SignUp[2.8:42]","start":1648240964576,"end":1648240964802,"title":"conduitApp\/feature\/SignUp[2.8:42] 15:42:44.576-15:42:44.802 New user sign up: Username taken"},{"id":10,"group":1,"content":"conduitApp\/feature\/HomePage[1:8]","start":1648240961675,"end":1648240961900,"title":"conduitApp\/feature\/HomePage[1:8] 15:42:41.675-15:42:41.900 get all tags"},{"id":11,"group":1,"content":"conduitApp\/feature\/HomePage[2:20]","start":1648240961909,"end":1648240962350,"title":"conduitApp\/feature\/HomePage[2:20] 15:42:41.909-15:42:42.350 get 10 articles"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
