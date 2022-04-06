@@ -17,7 +17,6 @@ Feature: Articles
 			* def token = response.user.token
  			* def tokenResponse = callonce read('classpath:conduitApp/helpers/CreateToken.feature')
   			* def token = tokenResponse.authToken
- 
 
         Scenario: Create a new article
             Given header Authorization = 'Token ' + token
