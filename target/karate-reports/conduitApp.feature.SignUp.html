@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-04-06 02:36:07 PM</div>
+    <div>2022-04-08 01:47:12 PM</div>
   </div>        
 </div>
 
@@ -71,7 +71,7 @@
           <div class="scenario-heading" id="[2.1:34]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.1:34]</span>
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>386</span>
+              <span>ms:</span>&nbsp;<span>510</span>
             </div>
           </div>
           <div class="step-row">
@@ -103,7 +103,7 @@
         <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;conduitApp.helpers.DataGenerator&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -112,7 +112,8 @@
 
   
 
-  <div class="preformatted" data-parent="1.4">14:36:05.068 karate.env system property was: null 
+  <div class="preformatted" data-parent="1.4">13:47:08.297 karate.env system property was: null 
+13:47:09.129 this thread waited 820 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
 </div>   
 
   
@@ -160,7 +161,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">18</div>
+    <div class="time-cell passed">165</div>
   </div>
 
    
@@ -188,7 +189,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">23</div>
   </div>
 
    
@@ -272,7 +273,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">352</div>
+    <div class="time-cell passed">307</div>
   </div>
 
    
@@ -281,20 +282,20 @@
 
   
 
-  <div class="preformatted" data-parent="1.28">14:36:05.105 request:
+  <div class="preformatted" data-parent="1.28">13:47:09.338 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 81
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;password&quot;:&quot;Karate123&quot;,&quot;email&quot;:&quot;lourdes21@test.com&quot;,&quot;username&quot;:&quot;azima&quot;}}
+{&quot;user&quot;:{&quot;password&quot;:&quot;Karate123&quot;,&quot;email&quot;:&quot;eugenia89@test.com&quot;,&quot;username&quot;:&quot;azima&quot;}}
 
-14:36:05.455 response time in milliseconds: 350
+13:47:09.644 response time in milliseconds: 305
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 50
 1 &lt; Connection: keep-alive
@@ -304,10 +305,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=7Z8HPaHpUpAHNkPA1odRmfbyabwcwxBHQRr6JmMPbDfj7gZFyMg24EzupWCUH1XynXmJEkTuek7XtdFPwMS6sxrQsPYabQYYHNp3tBE%2BjxNNgPUjn9Mhf5dZh%2BXRYZHNr3FE&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=RQy%2BdegiST6E31XObCB3nRK9HrBeIkC6xHvb8WTbWNxZAgqykXm3NQaPhfqYQbE8nmfGDQy%2FcHkT9m0gySZMCvcFJxbkMnAHsD4l1aZTHOCfNeX4FzGeYQF4wU7ZZAjJs8Fo&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf36c393d9f00-DFW
+1 &lt; CF-RAY: 6f8d268a8f459f13-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;username&quot;:[&quot;has already been taken&quot;]}}
 </div>   
@@ -377,7 +378,7 @@
           <div class="scenario-heading" id="[2.2:35]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.2:35]</span>
@@ -386,7 +387,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>347</span>
+              <span>ms:</span>&nbsp;<span>206</span>
             </div>
           </div>
           <div class="step-row">
@@ -418,7 +419,7 @@
 
   
 
-  <div class="preformatted" data-parent="2.4">14:36:05.453 karate.env system property was: null 
+  <div class="preformatted" data-parent="2.4">13:47:09.649 karate.env system property was: null 
 </div>   
 
   
@@ -466,7 +467,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell passed">22</div>
   </div>
 
    
@@ -494,7 +495,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">22</div>
+    <div class="time-cell passed">16</div>
   </div>
 
    
@@ -578,7 +579,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">304</div>
+    <div class="time-cell passed">167</div>
   </div>
 
    
@@ -587,9 +588,9 @@
 
   
 
-  <div class="preformatted" data-parent="2.28">14:36:05.500 request:
+  <div class="preformatted" data-parent="2.28">13:47:09.691 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 85
 1 &gt; Host: api.realworld.io
@@ -598,9 +599,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;azima23@gmail.com&quot;,&quot;username&quot;:&quot;azima12&quot;}}
 
-14:36:05.801 response time in milliseconds: 301
+13:47:09.855 response time in milliseconds: 164
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 85
 1 &lt; Connection: keep-alive
@@ -610,10 +611,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=jJEsnEMcRTbITEWu2HGkTX5ZQ6XRZO1o%2F%2BuaiF1kXVha3j9%2B4ZEFPMvXWkdbLwSwx1btJJ3djWk3ZskoXf3jthIOK1tpydKYn3I844gH1BV9C6RZFe806VuCxX9WWjBFATAi&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=do9eJ08tCBtStdxiXawIxl56bTN4KiixorGfWCoycaQaTh%2BGds1YPqZOsvEeMfllrCfvwiVQXX3PEAidQ7KPfO9hYmCBuzJl1baP4lhyhiix%2BQzEiMJNC6FWnf7Nks4h%2B9hQ&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf36eaa486737-DFW
+1 &lt; CF-RAY: 6f8d268cb8069f1f-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;email&quot;:[&quot;has already been taken&quot;],&quot;username&quot;:[&quot;has already been taken&quot;]}}
 </div>   
@@ -683,7 +684,7 @@
           <div class="scenario-heading" id="[2.3:36]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.3:36]</span>
@@ -692,7 +693,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>334</span>
+              <span>ms:</span>&nbsp;<span>197</span>
             </div>
           </div>
           <div class="step-row">
@@ -724,7 +725,7 @@
 
   
 
-  <div class="preformatted" data-parent="3.4">14:36:05.463 karate.env system property was: null 
+  <div class="preformatted" data-parent="3.4">13:47:09.860 karate.env system property was: null 
 </div>   
 
   
@@ -772,7 +773,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell passed">16</div>
   </div>
 
    
@@ -800,7 +801,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">19</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -856,7 +857,7 @@
         <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;azima23&quot;,&quot;password&quot;: &quot;123Karate123&quot;, &quot;username&quot;: &quot;#(randomUserName)&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -884,7 +885,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">292</div>
+    <div class="time-cell passed">162</div>
   </div>
 
    
@@ -893,20 +894,20 @@
 
   
 
-  <div class="preformatted" data-parent="3.28">14:36:05.507 request:
+  <div class="preformatted" data-parent="3.28">13:47:09.899 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 83
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;azima23&quot;,&quot;username&quot;:&quot;orlando.wiegand&quot;}}
+{&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;azima23&quot;,&quot;username&quot;:&quot;clayton.oreilly&quot;}}
 
-14:36:05.797 response time in milliseconds: 289
+13:47:10.058 response time in milliseconds: 159
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 47
 1 &lt; Connection: keep-alive
@@ -916,10 +917,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=qFjvTMAHA16hMnwDJxbh39q3yEYI1Od6ScIdTqacFBYI2NedpauooyGojwckArSRTq7dXP3MUAugKTI9UmGBFZGd%2BeDKsJCNtmbnVslZtz6HyOcYNLUwNWU36TIsm0VwYoJM&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=DjQTTD3LyNysDOsX%2FdkTgMLXE3uR7K8aNS97HfEb93YF%2BWYaMWBDGQKd%2FiEkAD%2FZg0QIzrNE2XXSCyAi8OPDrFFUB5RWypdTmve9tWg9ZC4wHpe6x%2FG%2BVlB%2B2fSxdkJwrMwS&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf36ebe600bfb-DFW
+1 &lt; CF-RAY: 6f8d268e0ea46737-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;email&quot;:[&quot;has already been taken&quot;]}}
 </div>   
@@ -989,7 +990,7 @@
           <div class="scenario-heading" id="[2.4:37]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.4:37]</span>
@@ -998,7 +999,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>229</span>
+              <span>ms:</span>&nbsp;<span>216</span>
             </div>
           </div>
           <div class="step-row">
@@ -1030,7 +1031,7 @@
 
   
 
-  <div class="preformatted" data-parent="4.4">14:36:05.806 karate.env system property was: null 
+  <div class="preformatted" data-parent="4.4">13:47:10.064 karate.env system property was: null 
 </div>   
 
   
@@ -1078,7 +1079,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">23</div>
+    <div class="time-cell passed">16</div>
   </div>
 
    
@@ -1106,7 +1107,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">21</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -1162,7 +1163,7 @@
         <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(randomEmail)&quot;,&quot;password&quot;: &quot;123Karate123&quot;, &quot;username&quot;: &quot;azima120786595656565656&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1190,7 +1191,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">182</div>
+    <div class="time-cell passed">179</div>
   </div>
 
    
@@ -1199,20 +1200,20 @@
 
   
 
-  <div class="preformatted" data-parent="4.28">14:36:05.857 request:
+  <div class="preformatted" data-parent="4.28">13:47:10.102 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 102
+1 &gt; Content-Length: 104
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;woodrow79@test.com&quot;,&quot;username&quot;:&quot;azima120786595656565656&quot;}}
+{&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;georgiann16@test.com&quot;,&quot;username&quot;:&quot;azima120786595656565656&quot;}}
 
-14:36:06.036 response time in milliseconds: 178
+13:47:10.278 response time in milliseconds: 175
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 50
 1 &lt; Connection: keep-alive
@@ -1222,10 +1223,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sIKOZYtfDi%2BH%2BO0Uu7Vd3cd3elIJv0q%2Bcr5yqGvmLV9y88fQakCfSlnxQqfNu3JorTJOsY7hCUu2BvfKrbqWtm%2FLftCYbY2rPn4fW7iuHFlIrZOteAjiHCQ%2BoAB3jrQU9Fp9&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=OfaE7wvAtNvHnhASRdpoVOsHkiWWLwVnLZXi1zjmvRygOdAaT4c6ODTt6nhRWMJhpcs1e9%2BCM03HNWrYsS%2BxJhKoIb7Oes3TVsZPDSWG9vNRyoW0VKlDc8BKB1PgUQHYxo0u&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf370dde59ee8-DFW
+1 &lt; CF-RAY: 6f8d268f4b5fec7a-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;username&quot;:[&quot;has already been taken&quot;]}}
 </div>   
@@ -1295,7 +1296,7 @@
           <div class="scenario-heading" id="[2.5:39]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.5:39]</span>
@@ -1304,7 +1305,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>211</span>
+              <span>ms:</span>&nbsp;<span>196</span>
             </div>
           </div>
           <div class="step-row">
@@ -1336,7 +1337,7 @@
 
   
 
-  <div class="preformatted" data-parent="5.4">14:36:05.810 karate.env system property was: null 
+  <div class="preformatted" data-parent="5.4">13:47:10.286 karate.env system property was: null 
 </div>   
 
   
@@ -1384,7 +1385,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">27</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -1412,7 +1413,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">21</div>
+    <div class="time-cell passed">24</div>
   </div>
 
    
@@ -1496,7 +1497,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">162</div>
+    <div class="time-cell passed">152</div>
   </div>
 
    
@@ -1505,9 +1506,9 @@
 
   
 
-  <div class="preformatted" data-parent="5.28">14:36:05.862 request:
+  <div class="preformatted" data-parent="5.28">13:47:10.331 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 68
 1 &gt; Host: api.realworld.io
@@ -1516,9 +1517,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;&quot;,&quot;username&quot;:&quot;azima12&quot;}}
 
-14:36:06.022 response time in milliseconds: 160
+13:47:10.481 response time in milliseconds: 150
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:48 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 39
 1 &lt; Connection: keep-alive
@@ -1528,10 +1529,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=pC8yvXGZs94%2Fe8Cn5yW5H%2FTAZ0ZmABspH1rRLwqmRJQkAAWM28R9Q2zDTHcicE20yaCQZBlj1uhrMNyBy1V6Q1lYgi5XjSa%2Bt0QAxUG7i92QUksQboE7ThyXdMqsmz%2FvP4vi&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=aOPb9tsqZ%2BDzkUHm9tWaAATRMLm%2BcHHazMiJx5CLI8fEZkwMQWOHy0Ng3US%2BV6cl%2BwSlaE5bzo10c3Ca8awXODOxUN1U9WGu3GburqFYTDUIzvwfiEorfm8SoA8WSBEq%2BQDp&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf370ed6f9f0d-DFW
+1 &lt; CF-RAY: 6f8d2690bebf9ee8-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;email&quot;:[&quot;can&#39;t be blank&quot;]}}
 </div>   
@@ -1601,7 +1602,7 @@
           <div class="scenario-heading" id="[2.6:40]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.6:40]</span>
@@ -1610,7 +1611,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>206</span>
+              <span>ms:</span>&nbsp;<span>207</span>
             </div>
           </div>
           <div class="step-row">
@@ -1642,7 +1643,7 @@
 
   
 
-  <div class="preformatted" data-parent="6.4">14:36:05.882 karate.env system property was: null 
+  <div class="preformatted" data-parent="6.4">13:47:10.488 karate.env system property was: null 
 </div>   
 
   
@@ -1690,7 +1691,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">16</div>
+    <div class="time-cell passed">15</div>
   </div>
 
    
@@ -1718,7 +1719,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">16</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -1811,9 +1812,9 @@
 
   
 
-  <div class="preformatted" data-parent="6.28">14:36:05.918 request:
+  <div class="preformatted" data-parent="6.28">13:47:10.525 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 73
 1 &gt; Host: api.realworld.io
@@ -1822,9 +1823,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;password&quot;:&quot;&quot;,&quot;email&quot;:&quot;azima23@gmail.com&quot;,&quot;username&quot;:&quot;azima12&quot;}}
 
-14:36:06.089 response time in milliseconds: 169
+13:47:10.694 response time in milliseconds: 168
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:48 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 42
 1 &lt; Connection: keep-alive
@@ -1834,10 +1835,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=mlyui6ZvxP6xHCGcwG06iUqgDENrexYpDFnKpG1iCgeu1uKD2sPg2bNDhtuWc7VcoR9L0sxJoZeOswkMGwsGVkavjJK%2FLngcnUZoqvx%2BU0Zl%2FQC7lXY3KtV2SNHW8gOaUWOr&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=UfU%2F1prEFuDRx0jUFP%2FgOn9VhYs1TrflF6lhn4XHu1q73eyyLGdWPeF38VeLP%2FESnCuvy60QkbS5UiiNGsDcLtsPmTNtLdb4vyxYYLeLbKZxq%2BTPKldKiHtxQs4MplBuSeM%2B&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf37148900ed6-DFW
+1 &lt; CF-RAY: 6f8d2691eda8679c-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;password&quot;:[&quot;can&#39;t be blank&quot;]}}
 </div>   
@@ -1907,7 +1908,7 @@
           <div class="scenario-heading" id="[2.7:41]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">parallel=false</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2.7:41]</span>
@@ -1916,7 +1917,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>239</span>
+              <span>ms:</span>&nbsp;<span>203</span>
             </div>
           </div>
           <div class="step-row">
@@ -1948,7 +1949,7 @@
 
   
 
-  <div class="preformatted" data-parent="7.4">14:36:06.020 karate.env system property was: null 
+  <div class="preformatted" data-parent="7.4">13:47:10.703 karate.env system property was: null 
 </div>   
 
   
@@ -1996,7 +1997,7 @@
         <span>*</span>&nbsp;<span>def randomEmail = dataGenerator.getRandomEmail()</span>
       </div>
     </div>
-    <div class="time-cell passed">19</div>
+    <div class="time-cell passed">15</div>
   </div>
 
    
@@ -2024,7 +2025,7 @@
         <span>*</span>&nbsp;<span>def randomUserName = dataGenerator.getRandomUserName()</span>
       </div>
     </div>
-    <div class="time-cell passed">16</div>
+    <div class="time-cell passed">15</div>
   </div>
 
    
@@ -2108,7 +2109,7 @@
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">203</div>
+    <div class="time-cell passed">172</div>
   </div>
 
    
@@ -2117,9 +2118,9 @@
 
   
 
-  <div class="preformatted" data-parent="7.28">14:36:06.059 request:
+  <div class="preformatted" data-parent="7.28">13:47:10.737 request:
 1 &gt; POST https://api.realworld.io/api/users
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 78
 1 &gt; Host: api.realworld.io
@@ -2128,9 +2129,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;password&quot;:&quot;123Karate123&quot;,&quot;email&quot;:&quot;azima23@gmail.com&quot;,&quot;username&quot;:&quot;&quot;}}
 
-14:36:06.259 response time in milliseconds: 200
+13:47:10.907 response time in milliseconds: 169
 1 &lt; 422
-1 &lt; Date: Wed, 06 Apr 2022 19:32:42 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:48 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 42
 1 &lt; Connection: keep-alive
@@ -2140,10 +2141,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=RjHsruxQYuM%2Bcy1rzdi%2B%2Bj%2FDpm%2B1PUApeNyK37I8Fu%2BV4bRFj8vyEQEok7OL79ORUIKXgzPmuUqZvFQe2B3W2ChSREbQVNUmeFjsnactvtranYyySLg5kxGEgt0jv0Iyx64f&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=leGToMxKQ4JYpYT8g%2Ficxr%2Fa6gbF30goLqAuuGVmC6rYRYuSnlEfgVbklHd0BMjSB%2FSNrazZ73oYU9TIh1p23LdzT%2FFADnawcnB74Mo8wyLPYQish6oVuWlGmed3nKIibvMG&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf3722a0993e0-DFW
+1 &lt; CF-RAY: 6f8d26934e7c93eb-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;errors&quot;:{&quot;username&quot;:[&quot;can&#39;t be blank&quot;]}}
 </div>   

@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-04-06 02:36:07 PM</div>
+    <div>2022-04-08 01:47:12 PM</div>
   </div>        
 </div>
 
@@ -56,7 +56,7 @@
           <div class="scenario-heading" id="[1:8]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:8]</span>
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>225</span>
+              <span>ms:</span>&nbsp;<span>240</span>
             </div>
           </div>
           <div class="step-row">
@@ -97,11 +97,220 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:36:03.822 karate.env system property was: null 
-14:36:04.720 this thread waited 886 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+  <div class="preformatted" data-parent="0.5">13:47:09.126 &lt;&lt; lock released, cached callSingle: classpath:conduitApp/helpers/CreateToken.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">conduitApp.helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">784</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.3">13:47:08.297 karate.env system property was: null 
+13:47:08.309 &gt;&gt; lock acquired, begin callSingle: classpath:conduitApp/helpers/CreateToken.feature
 </div>   
 
   
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">38</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">739</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.6">13:47:08.684 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 56
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;azima@gmail.com&quot;}}
+
+13:47:09.121 response time in milliseconds: 435
+1 &lt; 200
+1 &lt; Date: Fri, 08 Apr 2022 18:43:46 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14c-BvL6MPMpOldQ2rTu65NvHfNsPfM&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=2u8x7THrNMM1ciFeKrHe8Odaz%2F7V20QvTekAPSdJh%2Bd2ETxcdCsYO0dAMfAnh43OtVhNFyToggq%2FtrHVtwXSocH86tMc4zutvYPzdpeZlytRejGg3os%2FWnA7pqXudLT5nYtv&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6f8d26876feb2f6d-DFW
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;bio&quot;:null,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
 
 </div>
 </div>
@@ -146,7 +355,7 @@
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">213</div>
+    <div class="time-cell passed">230</div>
   </div>
 
    
@@ -155,18 +364,18 @@
 
   
 
-  <div class="preformatted" data-parent="0.11">14:36:04.727 request:
+  <div class="preformatted" data-parent="0.11">13:47:09.136 request:
 1 &gt; GET https://api.realworld.io/api/tags
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-14:36:04.937 response time in milliseconds: 209
+13:47:09.364 response time in milliseconds: 227
 1 &lt; 200
-1 &lt; Date: Wed, 06 Apr 2022 19:32:40 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:46 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -176,10 +385,10 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=iDdAL68HF9s9kH6Zl38dGRoV38YsiH%2FpZBLAwSGxC8pAB%2B26Icvscj6fjGdddLKwj%2FXsfzZclYGm8jE67Bao7RqSxG63f%2BtEcpSt7bT73nKHCKhXYNgZfP2Ac%2BhakXlwNV5N&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=tJpD%2FYFCYw3wyh21xSB5cAoZNDaXeJYHf9EGE%2Fswb2f8jLCWhxkyNJ7JkjWUT%2BtxPz9RlCf1cUf%2BulOWV99UN5flnVyuCxDUaybJhd7AfLyIvRoVnLB1n5leHOAww7rmaudH&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf369bd300ba1-DFW
+1 &lt; CF-RAY: 6f8d2689489a9ee0-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;tags&quot;:[&quot;welcome&quot;,&quot;implementations&quot;,&quot;codebaseShow&quot;,&quot;introduction&quot;]}
 </div>   
@@ -368,7 +577,7 @@
           <div class="scenario-heading" id="[2:21]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2:21]</span>
@@ -377,7 +586,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>722</span>
+              <span>ms:</span>&nbsp;<span>424</span>
             </div>
           </div>
           <div class="step-row">
@@ -409,8 +618,8 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:36:03.822 karate.env system property was: null 
-14:36:04.720 this thread waited 887 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+  <div class="preformatted" data-parent="0.5">13:47:08.297 karate.env system property was: null 
+13:47:09.129 this thread waited 817 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
 </div>   
 
   
@@ -530,7 +739,7 @@
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">706</div>
+    <div class="time-cell passed">407</div>
   </div>
 
    
@@ -539,33 +748,33 @@
 
   
 
-  <div class="preformatted" data-parent="0.27">14:36:04.743 request:
+  <div class="preformatted" data-parent="0.27">13:47:09.154 request:
 1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-14:36:05.444 response time in milliseconds: 698
+13:47:09.558 response time in milliseconds: 402
 1 &lt; 200
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
 1 &lt; X-Powered-By: Express
 1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;f10-zklZlMebluLIW4oyrSU5j2N5Fo8&quot;
+1 &lt; Etag: W/&quot;f99-1YO7obTfZCkfhxJL07kiNzcrgiU&quot;
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=eZ1lDL%2FNP82g3SxV%2Fx0kV8hp2JZKWQuAOPq%2BeB3l7nvNDv2%2Blqr3JthG9yZPL1OdSbRih%2Bv7nZANrTORCx7BT7j0%2FBYhECmeVHpHJkLtd54O%2Fo2qQqsOSDuFejl3kKFdRUAO&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=IrJX6vZ%2BLKk1wH4yeHTDFvsCdbNg44BjlcBFzm5SYm06S44iN2gSGtvsr0J2zhDwmdAZo427WUZiaZ%2Fb6NBEFdsLfCeDbeb0K2yT%2BgEHvqp3z6iRA9uQPvuEaTXOr1uSCkyP&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf36a2fb29ed6-DFW
+1 &lt; CF-RAY: 6f8d26896a099ef5-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
-{&quot;articlesCount&quot;:11,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Qarth&quot;,&quot;title&quot;:&quot;Maron Volmark&quot;,&quot;body&quot;:&quot;Nothing burns like the cold.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Maron-Volmark-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;Edwyn Frey&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Edwyn-Frey-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;buh1 bug&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh1-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh bug&quot;,&quot;title&quot;:&quot;buh bug&quot;,&quot;body&quot;:&quot;buh bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Bla blu&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Bla-blu-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Delete&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Delete-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;this is topic&quot;,&quot;title&quot;:&quot;Some title&quot;,&quot;body&quot;:&quot;this is article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Some-title-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;favoritesCount&quot;:1783,&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;favoritesCount&quot;:1105,&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false}]}
+{&quot;articlesCount&quot;:34,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Lorath&quot;,&quot;title&quot;:&quot;Cortnay Penrose&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Cortnay-Penrose-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:02:47.116Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Meereen&quot;,&quot;title&quot;:&quot;Daemon Sand&quot;,&quot;body&quot;:&quot;The things I do for love.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Daemon-Sand-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:02:47.116Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:46:31.134Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Old Ghis&quot;,&quot;title&quot;:&quot;Aemon Costayne&quot;,&quot;body&quot;:&quot;Knowledge could be more valuable than gold, more deadly than a dagger.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Aemon-Costayne-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:46:31.134Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:35.101Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Tyrosh&quot;,&quot;title&quot;:&quot;Amarei Crakehall&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Amarei-Crakehall-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:35.101Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:35.095Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Brandon the Daughterless&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Brandon-the-Daughterless-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:35.095Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:12.654Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Kym&quot;,&quot;body&quot;:&quot;And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o&#39;er his hall, with no one there to hear. Yes, now the rains weep o&#39;er his hall, and not a soul to hear.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Kym-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:12.654Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:12.643Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Asshai&quot;,&quot;title&quot;:&quot;Narbo&quot;,&quot;body&quot;:&quot;Summer will end soon enough, and childhood as well.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Narbo-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:12.643Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:44:47.968Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Bhorash&quot;,&quot;title&quot;:&quot;Hosman Norcross&quot;,&quot;body&quot;:&quot;A lion doesn&#39;t concern itself with the opinion of sheep.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Hosman-Norcross-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:44:47.968Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:44:47.931Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Myr&quot;,&quot;title&quot;:&quot;Roland Crakehall&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Roland-Crakehall-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:44:47.931Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:43:56.163Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Uller&quot;,&quot;body&quot;:&quot;Once you\u2019ve accepted your flaws, no one can use them against you.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Uller-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:43:56.163Z&quot;,&quot;favorited&quot;:true}]}
 </div>   
 
   

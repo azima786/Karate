@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: conduitApp.feature.ConduitTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.228 s <<< FAILURE! - in conduitApp.feature.ConduitTest
-conduitApp.feature.ConduitTest.testParallel  Time elapsed: 6.21 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'Helman Tallhart'
-  'Clydas'
-
-classpath:conduitApp/feature/Articles.feature:43
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  1
-  2
-
-classpath:conduitApp/feature/homework.feature:63 ==> expected: <0> but was: <2>
-	at conduitApp.feature.ConduitTest.testParallel(ConduitTest.java:28)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.82 s - in conduitApp.feature.ConduitTest

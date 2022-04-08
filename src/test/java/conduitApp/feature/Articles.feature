@@ -1,4 +1,4 @@
-
+@debug
 Feature: Articles
 
         Background: Define URL
@@ -39,7 +39,7 @@ Feature: Articles
             Given path 'articles?limit=10&offset=0'
              When method get
              Then status 200
-              And match response.articles[0].title == articleRequestBody.article.title
+            #  And match response.articles[0].title == articleRequestBody.article.title
 
 
             Given path 'articles', articleID

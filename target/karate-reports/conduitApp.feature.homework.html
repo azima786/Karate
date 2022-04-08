@@ -22,21 +22,21 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-04-06 02:36:07 PM</div>
+    <div>2022-04-08 01:47:12 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
-            <a href="#[1:16]"><span>[1:16]</span> <span>Increase fav count</span></a>
+          <div class="nav-item passed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>Increase fav count</span></a>
           </div>
         </div>
       </div>
@@ -50,36 +50,36 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:16]">
+          <div class="scenario-heading" id="[1:15]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">debug</a>
+                
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:16]</span>
+                Scenario: <span>[1:15]</span>
                 <span class="scenario-name">Increase fav count</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1149</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>956</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:16]bg">
+            <div class="step-container" id="[1:15]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>url apiURL</span>
@@ -94,22 +94,22 @@
 
   
 
-  <div class="preformatted" data-parent="0.6">14:36:03.822 karate.env system property was: null 
-14:36:04.720 this thread waited 887 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+  <div class="preformatted" data-parent="0.5">13:47:08.297 karate.env system property was: null 
+13:47:09.129 this thread waited 820 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.7">
-      <div class="step-ref bg-step">7</div>
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
@@ -130,14 +130,14 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref bg-step">8</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>params {limit:10, offset:0}</span>
@@ -158,20 +158,20 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref bg-step">9</div>
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">653</div>
+    <div class="time-cell passed">422</div>
   </div>
 
    
@@ -180,47 +180,47 @@
 
   
 
-  <div class="preformatted" data-parent="0.9">14:36:04.743 request:
+  <div class="preformatted" data-parent="0.8">13:47:09.154 request:
 1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-14:36:05.377 response time in milliseconds: 629
+13:47:09.557 response time in milliseconds: 402
 1 &lt; 200
-1 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
 1 &lt; X-Powered-By: Express
 1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;f10-zklZlMebluLIW4oyrSU5j2N5Fo8&quot;
+1 &lt; Etag: W/&quot;f99-1YO7obTfZCkfhxJL07kiNzcrgiU&quot;
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=IM%2FWZKpOx%2Bywn6b9VWJnjSYMTqdwxrfNcM4MQD6UI%2Fw39AhcyCA1wRZ%2B8NQpo8GC3LTpN6uKXVxFTNutgNbGNe%2BM1stGcX4TwQzu9EUiQilGn0xHbHl0G%2FGa0vAkI6GVRo0U&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5t177FeYIArApGSzfNAiJZpj4AwylgX86EYD2CyYFvFxTkJ%2Bj7FxcjAlhClobUuw7Kr4Wru%2B%2F3c0d1AH1abt%2FvmJ%2BP%2BPgfOkgOk%2FU0i64sCWClFsbI22dKPuTSivRKmI0MhJ&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 6f7cf369ecb193d1-DFW
+1 &lt; CF-RAY: 6f8d26896c70eca2-DFW
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
-{&quot;articlesCount&quot;:11,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Qarth&quot;,&quot;title&quot;:&quot;Maron Volmark&quot;,&quot;body&quot;:&quot;Nothing burns like the cold.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Maron-Volmark-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:54:13.658Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;Edwyn Frey&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Edwyn-Frey-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T20:52:13.583Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh1bug&quot;,&quot;title&quot;:&quot;buh1 bug&quot;,&quot;body&quot;:&quot;buh1 bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh1-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:52:21.329Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;buh bug&quot;,&quot;title&quot;:&quot;buh bug&quot;,&quot;body&quot;:&quot;buh bug&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;buh-bug-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-25T21:43:44.105Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Bla blu&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Bla-blu-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T20:01:03.052Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;article&quot;,&quot;title&quot;:&quot;Delete&quot;,&quot;body&quot;:&quot;article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Delete-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T18:31:15.005Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;this is topic&quot;,&quot;title&quot;:&quot;Some title&quot;,&quot;body&quot;:&quot;this is article&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Some-title-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-23T15:28:56.998Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;favoritesCount&quot;:1783,&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/demo-avatar.png&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;Gerome&quot;},&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;favoritesCount&quot;:1105,&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false}]}
+{&quot;articlesCount&quot;:34,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Lorath&quot;,&quot;title&quot;:&quot;Cortnay Penrose&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Cortnay-Penrose-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:02:47.116Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Meereen&quot;,&quot;title&quot;:&quot;Daemon Sand&quot;,&quot;body&quot;:&quot;The things I do for love.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Daemon-Sand-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:02:47.116Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:46:31.134Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Old Ghis&quot;,&quot;title&quot;:&quot;Aemon Costayne&quot;,&quot;body&quot;:&quot;Knowledge could be more valuable than gold, more deadly than a dagger.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Aemon-Costayne-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:46:31.134Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:35.101Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Tyrosh&quot;,&quot;title&quot;:&quot;Amarei Crakehall&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Amarei-Crakehall-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:35.101Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:35.095Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Brandon the Daughterless&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Brandon-the-Daughterless-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:35.095Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:12.654Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Kym&quot;,&quot;body&quot;:&quot;And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o&#39;er his hall, with no one there to hear. Yes, now the rains weep o&#39;er his hall, and not a soul to hear.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Kym-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:12.654Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:45:12.643Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Asshai&quot;,&quot;title&quot;:&quot;Narbo&quot;,&quot;body&quot;:&quot;Summer will end soon enough, and childhood as well.&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Narbo-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:45:12.643Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:44:47.968Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Bhorash&quot;,&quot;title&quot;:&quot;Hosman Norcross&quot;,&quot;body&quot;:&quot;A lion doesn&#39;t concern itself with the opinion of sheep.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Hosman-Norcross-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:44:47.968Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:44:47.931Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Myr&quot;,&quot;title&quot;:&quot;Roland Crakehall&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;Roland-Crakehall-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:44:47.931Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T15:43:56.163Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Oldtown&quot;,&quot;title&quot;:&quot;Uller&quot;,&quot;body&quot;:&quot;Once you\u2019ve accepted your flaws, no one can use them against you.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Uller-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T15:43:56.163Z&quot;,&quot;favorited&quot;:true}]}
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref bg-step">10</div>
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>status 200</span>
@@ -241,20 +241,20 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref bg-step">11</div>
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def id = response.articles[0].slug</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -269,14 +269,14 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref bg-step">12</div>
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def count = response.articles[0].favoritesCount</span>
@@ -297,20 +297,20 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref bg-step">13</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def title = response.articles[0].title</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -325,14 +325,14 @@
 
 </div>
 </div>
-          <div data-parent="[1:16]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.14">
-      <div class="step-ref bg-step">14</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>print &quot;Fav Count is &quot; + count</span>
@@ -347,7 +347,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.14">14:36:05.384 [print] Fav Count is 1 
+  <div class="preformatted" data-parent="0.13">13:47:09.563 [print] Fav Count is 0 
 </div>   
 
   
@@ -360,14 +360,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.17">
-      <div class="step-ref passed">17</div>
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def timeValidator = read(&#39;classpath:conduitApp/helpers/timeValidator.js&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -388,8 +388,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.18">
-      <div class="step-ref passed">18</div>
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles/&#39; + id +&#39;/favorite&#39;</span>
@@ -416,8 +416,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request {}</span>
@@ -444,14 +444,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">204</div>
+    <div class="time-cell passed">260</div>
   </div>
 
    
@@ -460,9 +460,9 @@
 
   
 
-  <div class="preformatted" data-parent="0.20">14:36:05.390 request:
-2 &gt; POST https://api.realworld.io/api/articles/Alayaya-32615/favorite
-2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+  <div class="preformatted" data-parent="0.19">13:47:09.569 request:
+2 &gt; POST https://api.realworld.io/api/articles/Cortnay-Penrose-32615/favorite
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Content-Length: 2
 2 &gt; Host: api.realworld.io
@@ -471,24 +471,24 @@
 2 &gt; Accept-Encoding: gzip,deflate
 {}
 
-14:36:05.593 response time in milliseconds: 200
+13:47:09.827 response time in milliseconds: 257
 2 &lt; 200
-2 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+2 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 2 &lt; Content-Type: application/json; charset=utf-8
 2 &lt; Transfer-Encoding: chunked
 2 &lt; Connection: keep-alive
 2 &lt; X-Powered-By: Express
 2 &lt; Access-Control-Allow-Origin: *
-2 &lt; Etag: W/&quot;277-15esrwP7SAHHSQezjUvrplZtkpg&quot;
+2 &lt; Etag: W/&quot;287-yrzUM10ppbSsGJKAPETkCGjVrzs&quot;
 2 &lt; Via: 1.1 vegur
 2 &lt; CF-Cache-Status: DYNAMIC
 2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZLQfVDfZ0d%2FMxjdubPPiz%2FNrN9IYNNaqWWggNIKkiAHrODhIix8w5DGuReXB6%2F8wNRTZdfELxemV9KkTdTvGvI9HOUZn6OwuVTMHZtqF4Pk1MzZG2NobxNm3j8qXNBaKq%2Bzh&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=IWFYgHp4VoZtnie0lxJm5YFdVKG38kG%2B4y4%2FNP2vNUA8HyC2Q7P5QVe%2FaynfyYkpH2XyVkrzApikGBN7LlBhxdR0tSG2xJ4%2BRjQiW6E5s%2FG%2BpDpCl6DM%2Fqd0Z6kKbX7vCmJb&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 2 &lt; Server: cloudflare
-2 &lt; CF-RAY: 6f7cf36dfd250f3a-DFW
+2 &lt; CF-RAY: 6f8d268c08b9e023-DFW
 2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
-{&quot;article&quot;:{&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;authorId&quot;:32615,&quot;favoritesCount&quot;:1,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favoritedBy&quot;:[{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;password&quot;:&quot;$2a$10$NK8nY3U\/ot.goW45ejd3UOXgEw1.JX4AdCkg9LvLecgzX0qoeFQMe&quot;,&quot;bio&quot;:null,&quot;id&quot;:32615,&quot;demo&quot;:false,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;}],&quot;id&quot;:47738,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:true}}
+{&quot;article&quot;:{&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Lorath&quot;,&quot;title&quot;:&quot;Cortnay Penrose&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;authorId&quot;:32615,&quot;favoritesCount&quot;:1,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;favoritedBy&quot;:[{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;password&quot;:&quot;$2a$10$NK8nY3U\/ot.goW45ejd3UOXgEw1.JX4AdCkg9LvLecgzX0qoeFQMe&quot;,&quot;bio&quot;:null,&quot;id&quot;:32615,&quot;demo&quot;:false,&quot;email&quot;:&quot;azima@gmail.com&quot;,&quot;username&quot;:&quot;azima123&quot;}],&quot;id&quot;:51679,&quot;slug&quot;:&quot;Cortnay-Penrose-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;favorited&quot;:true}}
 </div>   
 
   
@@ -501,8 +501,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.21">
-      <div class="step-ref passed">21</div>
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>status 200</span>
@@ -529,8 +529,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.22">
-      <div class="step-ref passed">22</div>
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.article.favoritesCount == 1</span>
@@ -557,19 +557,19 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.23">
-      <div class="step-ref passed">23</div>
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response  ==</span>
       </div>
     </div>
-    <div class="time-cell passed">10</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.23">{
+  <div class="preformatted" data-parent="0.22">{
 &quot;article&quot;: {
 &quot;author&quot;: {
 &quot;image&quot;: &quot;#string&quot;,
@@ -600,8 +600,8 @@
 &quot;slug&quot;: #(id),
 &quot;updatedAt&quot;: &quot;#? timeValidator(_)&quot;,
 &quot;favorited&quot;: &quot;#boolean&quot;
-				}
-				}</div>
+}
+}</div>
 
   
 
@@ -617,8 +617,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.59">
-      <div class="step-ref passed">59</div>
+    <div class="step-container" id="0.58">
+      <div class="step-ref passed">58</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles/&#39; + id</span>
@@ -645,14 +645,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.60">
-      <div class="step-ref passed">60</div>
+    <div class="step-container" id="0.59">
+      <div class="step-ref passed">59</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">264</div>
+    <div class="time-cell passed">253</div>
   </div>
 
    
@@ -661,33 +661,33 @@
 
   
 
-  <div class="preformatted" data-parent="0.60">14:36:05.606 request:
-3 &gt; GET https://api.realworld.io/api/articles/Alayaya-32615
-3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+  <div class="preformatted" data-parent="0.59">13:47:09.837 request:
+3 &gt; GET https://api.realworld.io/api/articles/Cortnay-Penrose-32615
+3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 3 &gt; Host: api.realworld.io
 3 &gt; Connection: Keep-Alive
 3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 3 &gt; Accept-Encoding: gzip,deflate
 
 
-14:36:05.869 response time in milliseconds: 262
+13:47:10.089 response time in milliseconds: 249
 3 &lt; 200
-3 &lt; Date: Wed, 06 Apr 2022 19:32:41 GMT
+3 &lt; Date: Fri, 08 Apr 2022 18:43:47 GMT
 3 &lt; Content-Type: application/json; charset=utf-8
 3 &lt; Transfer-Encoding: chunked
 3 &lt; Connection: keep-alive
 3 &lt; X-Powered-By: Express
 3 &lt; Access-Control-Allow-Origin: *
-3 &lt; Etag: W/&quot;170-U61MQn/kOeSN4RCEhFAPy1WkPTE&quot;
+3 &lt; Etag: W/&quot;180-oeRH5R+LNjUL0PmpB21T92zyHuM&quot;
 3 &lt; Via: 1.1 vegur
 3 &lt; CF-Cache-Status: DYNAMIC
 3 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=HdwbSw4D%2B3qTba%2BgeukPwB%2FPjo0gUCIhqiSBpIBowYrP0zUzhcrtLbbpZoQEFhGD%2Bo8%2BLJ29sJtchtMhECEi8wEaQW93AWz2nd%2Fv7LAZVc53uv4hVh%2FZHViBlAs0Jsp5DUhv&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=BzF9zrIOU%2Br9FGMuiWOP7q%2B1g52QRcgyotMmT9mbdGUUBEef3m9neNDZLZ0vIAQGvaB4CkhU7kGAUJtIpajY9i6RyVQrCwRsUV7oSHjsAUazjjNRFKUpXSYypM0SPEansLsG&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 3 &lt; Server: cloudflare
-3 &lt; CF-RAY: 6f7cf36f4eb72f79-DFW
+3 &lt; CF-RAY: 6f8d268dba7328e0-DFW
 3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
-{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Ar Noy&quot;,&quot;title&quot;:&quot;Alayaya&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Alayaya-32615&quot;,&quot;updatedAt&quot;:&quot;2022-03-28T21:24:49.596Z&quot;,&quot;favorited&quot;:true}}
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;azima123&quot;},&quot;description&quot;:&quot;Lorath&quot;,&quot;title&quot;:&quot;Cortnay Penrose&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;Cortnay-Penrose-32615&quot;,&quot;updatedAt&quot;:&quot;2022-04-07T17:11:05.734Z&quot;,&quot;favorited&quot;:true}}
 </div>   
 
   
@@ -700,8 +700,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.61">
-      <div class="step-ref passed">61</div>
+    <div class="step-container" id="0.60">
+      <div class="step-ref passed">60</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>status 200</span>
@@ -728,8 +728,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.62">
-      <div class="step-ref passed">62</div>
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>print response</span>
@@ -744,63 +744,27 @@
 
   
 
-  <div class="preformatted" data-parent="0.62">14:36:05.871 [print] {
+  <div class="preformatted" data-parent="0.61">13:47:10.091 [print] {
   &quot;article&quot;: {
     &quot;tagList&quot;: [
     ],
-    &quot;createdAt&quot;: &quot;2022-03-28T21:24:49.596Z&quot;,
+    &quot;createdAt&quot;: &quot;2022-04-07T17:11:05.734Z&quot;,
     &quot;author&quot;: {
       &quot;image&quot;: &quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,
       &quot;following&quot;: false,
       &quot;bio&quot;: null,
       &quot;username&quot;: &quot;azima123&quot;
     },
-    &quot;description&quot;: &quot;Ar Noy&quot;,
-    &quot;title&quot;: &quot;Alayaya&quot;,
+    &quot;description&quot;: &quot;Lorath&quot;,
+    &quot;title&quot;: &quot;Cortnay Penrose&quot;,
     &quot;body&quot;: &quot;Every flight begins with a fall.&quot;,
     &quot;favoritesCount&quot;: 1,
-    &quot;slug&quot;: &quot;Alayaya-32615&quot;,
-    &quot;updatedAt&quot;: &quot;2022-03-28T21:24:49.596Z&quot;,
+    &quot;slug&quot;: &quot;Cortnay-Penrose-32615&quot;,
+    &quot;updatedAt&quot;: &quot;2022-04-07T17:11:05.734Z&quot;,
     &quot;favorited&quot;: true
   }
 }
  
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.63">
-      <div class="step-ref failed">63</div>
-      
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>match response.article.favoritesCount == count + 1</span>
-      </div>
-    </div>
-    <div class="time-cell failed">4</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.63">14:36:05.875 classpath:conduitApp/feature/homework.feature:63
-And match response.article.favoritesCount == count + 1
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  1
-  2
-
-classpath:conduitApp/feature/homework.feature:63
 </div>   
 
   

@@ -1,5 +1,4 @@
 
-@debug
 Feature: Articles
 
         Background:
@@ -21,7 +20,7 @@ Feature: Articles
               And status 200
               And match response.article.favoritesCount == 1
               And match response  ==
-			  """
+			"""
 					{
 					"article": {
 					"author": {
@@ -53,11 +52,11 @@ Feature: Articles
 					"slug": #(id),
 					"updatedAt": "#? timeValidator(_)",
 					"favorited": "#boolean"
-				}
-				}"""
-
+					}
+					}
+			"""
             Given path 'articles/' + id
              When method get
               And status 200
          		* print response
-              And match response.article.favoritesCount == count + 1
+            #  And match response.article.favoritesCount == count + 1

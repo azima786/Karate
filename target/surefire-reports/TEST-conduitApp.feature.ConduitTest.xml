@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.feature.ConduitTest" time="6.228" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.feature.ConduitTest" time="7.82" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\azima.keshwani\Desktop\LearnKarate\target\test-classes;C:\Users\azima.keshwani\Desktop\LearnKarate\target\classes;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-junit5\1.0.0\karate-junit5-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-core\1.0.0\karate-core-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\azima.keshwani\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\azima.keshwani\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\azima.keshwani\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\azima.keshwani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\azima.keshwani\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\azima.keshwani\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.class.path" value="C:\Users\azima.keshwani\Desktop\LearnKarate\target\test-classes;C:\Users\azima.keshwani\Desktop\LearnKarate\target\classes;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-junit5\1.0.0\karate-junit5-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-core\1.0.0\karate-core-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\azima.keshwani\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\azima.keshwani\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\azima.keshwani\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\azima.keshwani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\azima.keshwani\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\masterthought\cucumber-reporting\5.3.1\cucumber-reporting-5.3.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\azima.keshwani\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\azima.keshwani\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\azima.keshwani\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\azima.keshwani\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\azima.keshwani\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\azima.keshwani\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\azima.keshwani\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\azima.keshwani\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\azima.keshwani\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\azima.keshwani\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\azima.keshwani\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\azima.keshwani\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\azima.keshwani\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\azima.keshwani\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\azima.keshwani\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="com.ibm.vm.bitmode" value="64"/>
@@ -20,8 +20,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire17664257145523813344\surefirebooter3523704087757055405.jar C:\Windows\Temp\surefire17664257145523813344 2022-04-06T14-36-00_571-jvmRun1 surefire9669299679940541932tmp surefire_015095203313071366767tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\azima.keshwani\Desktop\LearnKarate\target\test-classes;C:\Users\azima.keshwani\Desktop\LearnKarate\target\classes;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-junit5\1.0.0\karate-junit5-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-core\1.0.0\karate-core-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\azima.keshwani\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\azima.keshwani\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\azima.keshwani\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\azima.keshwani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\azima.keshwani\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\azima.keshwani\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire2832479977777639815\surefirebooter12670915498747839123.jar C:\Windows\Temp\surefire2832479977777639815 2022-04-08T13-47-04_824-jvmRun1 surefire10906977624803678326tmp surefire_011577558353022135879tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\azima.keshwani\Desktop\LearnKarate\target\test-classes;C:\Users\azima.keshwani\Desktop\LearnKarate\target\classes;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-junit5\1.0.0\karate-junit5-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-core\1.0.0\karate-core-1.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\azima.keshwani\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\azima.keshwani\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\azima.keshwani\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\azima.keshwani\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\azima.keshwani\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\azima.keshwani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\azima.keshwani\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\azima.keshwani\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\azima.keshwani\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\azima.keshwani\.m2\repository\net\masterthought\cucumber-reporting\5.3.1\cucumber-reporting-5.3.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\azima.keshwani\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\azima.keshwani\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\azima.keshwani\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\azima.keshwani\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\azima.keshwani\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\azima.keshwani\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\azima.keshwani\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\azima.keshwani\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\azima.keshwani\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\azima.keshwani\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\azima.keshwani\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\azima.keshwani\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\azima.keshwani\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\azima.keshwani\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\azima.keshwani\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\azima.keshwani\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\azima.keshwani\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\azima.keshwani\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\azima.keshwani"/>
     <property name="user.language" value="en"/>
@@ -41,7 +41,7 @@
     <property name="karate.options" value="--tags ~@ignore"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.awt.fonts" value=""/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire17664257145523813344\surefirebooter3523704087757055405.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire2832479977777639815\surefirebooter12670915498747839123.jar"/>
     <property name="com.ibm.oti.shared.enabled" value="false"/>
     <property name="jdk.boot.class.path.append" value=""/>
     <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin"/>
@@ -78,34 +78,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="testParallel" classname="conduitApp.feature.ConduitTest" time="6.21">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'Helman Tallhart'
-  'Clydas'
-
-classpath:conduitApp/feature/Articles.feature:43
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  1
-  2
-
-classpath:conduitApp/feature/homework.feature:63 ==> expected: <0> but was: <2>
-	at conduitApp.feature.ConduitTest.testParallel(ConduitTest.java:28)
-]]></failure>
-    <system-out><![CDATA[14:36:02.237 [main] WARN  com.intuit.karate.Runner - the @KarateOptions annotation is deprecated, please use Runner.builder()
-14:36:02.516 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
-14:36:02.822 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:36:02.831 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1649273762824
-14:36:02.839 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
-14:36:03.821 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:03.821 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:03.821 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:03.821 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:03.821 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:03.833 [pool-2-thread-2] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.229 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="conduitApp.feature.ConduitTest" time="7.799">
+    <system-out><![CDATA[13:47:06.447 [main] WARN  com.intuit.karate.Runner - the @KarateOptions annotation is deprecated, please use Runner.builder()
+13:47:06.838 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:47:07.247 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:47:07.258 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+13:47:08.296 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.296 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.296 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.296 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.296 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.296 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:08.309 [pool-2-thread-3] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:conduitApp/helpers/CreateToken.feature
+13:47:08.682 [pool-2-thread-3] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 56
@@ -115,61 +100,61 @@ classpath:conduitApp/feature/homework.feature:63 ==> expected: <0> but was: <2>
 1 > Accept-Encoding: gzip,deflate
 {"user":{"password":"123456","email":"azima@gmail.com"}}
 
-14:36:04.713 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 483
+13:47:09.120 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 435
 1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:40 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:46 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"14c-VMbzWPNdbSgJUY5sSxYD2Wsvjxk"
+1 < Etag: W/"14c-BvL6MPMpOldQ2rTu65NvHfNsPfM"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VhL7aLFo3bIo3QBydD4gdIEPDbD%2BH5zbF69lJ%2FFaHvmrWJffdaWJLO3Y0fNnWrCBuXb69FeZp04v7zvxS3RygFGk038pEFeq86w0jAqoncRaxpK7wXxBM%2BlUeqF7awyZCaKP"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2u8x7THrNMM1ciFeKrHe8Odaz%2F7V20QvTekAPSdJh%2Bd2ETxcdCsYO0dAMfAnh43OtVhNFyToggq%2FtrHVtwXSocH86tMc4zutvYPzdpeZlytRejGg3os%2FWnA7pqXudLT5nYtv"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf367a94a9ea6-DFW
+1 < CF-RAY: 6f8d26876feb2f6d-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8"}}
-14:36:04.719 [pool-2-thread-2] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.720 [pool-2-thread-5] WARN  com.intuit.karate - this thread waited 887 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.720 [pool-2-thread-3] WARN  com.intuit.karate - this thread waited 886 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.720 [pool-2-thread-4] WARN  com.intuit.karate - this thread waited 887 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.721 [pool-2-thread-1] WARN  com.intuit.karate - this thread waited 886 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
-14:36:04.727 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA"}}
+13:47:09.126 [pool-2-thread-3] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.129 [pool-2-thread-4] WARN  com.intuit.karate - this thread waited 817 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.129 [pool-2-thread-5] WARN  com.intuit.karate - this thread waited 820 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.129 [pool-2-thread-1] WARN  com.intuit.karate - this thread waited 820 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.129 [pool-3-thread-1] WARN  com.intuit.karate - this thread waited 820 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.130 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 821 milliseconds for callSingle lock: classpath:conduitApp/helpers/CreateToken.feature
+13:47:09.136 [pool-2-thread-3] DEBUG com.intuit.karate - request:
 1 > GET https://api.realworld.io/api/tags
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 > Accept-Encoding: gzip,deflate
 
 
-14:36:04.743 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+13:47:09.154 [pool-2-thread-5] DEBUG com.intuit.karate - request:
 1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 > Accept-Encoding: gzip,deflate
 
 
-14:36:04.743 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+13:47:09.154 [pool-2-thread-4] DEBUG com.intuit.karate - request:
 1 > GET https://api.realworld.io/api/articles?offset=0&limit=10
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 > Accept-Encoding: gzip,deflate
 
 
-Helman Tallhart
-Clydas
-14:36:04.891 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+Malwyn Frey
+13:47:09.285 [pool-2-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 56
 1 > Host: api.realworld.io
@@ -178,9 +163,10 @@ Clydas
 1 > Accept-Encoding: gzip,deflate
 {"user":{"password":"123456","email":"azima@gmail.com"}}
 
-14:36:04.891 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+Myria Jordayne
+13:47:09.294 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 56
 1 > Host: api.realworld.io
@@ -189,9 +175,20 @@ Clydas
 1 > Accept-Encoding: gzip,deflate
 {"user":{"password":"123456","email":"azima@gmail.com"}}
 
-14:36:04.937 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 209
+13:47:09.338 [pool-3-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 81
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"password":"Karate123","email":"eugenia89@test.com","username":"azima"}}
+
+13:47:09.363 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 227
 1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:40 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:46 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -201,125 +198,47 @@ Clydas
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iDdAL68HF9s9kH6Zl38dGRoV38YsiH%2FpZBLAwSGxC8pAB%2B26Icvscj6fjGdddLKwj%2FXsfzZclYGm8jE67Bao7RqSxG63f%2BtEcpSt7bT73nKHCKhXYNgZfP2Ac%2BhakXlwNV5N"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tJpD%2FYFCYw3wyh21xSB5cAoZNDaXeJYHf9EGE%2Fswb2f8jLCWhxkyNJ7JkjWUT%2BtxPz9RlCf1cUf%2BulOWV99UN5flnVyuCxDUaybJhd7AfLyIvRoVnLB1n5leHOAww7rmaudH"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf369bd300ba1-DFW
+1 < CF-RAY: 6f8d2689489a9ee0-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"tags":["welcome","implementations","codebaseShow","introduction"]}
-14:36:04.955 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:04.958 [pool-2-thread-3] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:conduitApp/helpers/Dummy.feature')
-14:36:04.998 [pool-2-thread-3] INFO  com.intuit.karate - [print] myrta.goodwin 
-14:36:04.998 [pool-2-thread-3] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:conduitApp/helpers/Dummy.feature')
-14:36:05.000 [pool-2-thread-3] INFO  com.intuit.karate - [print] myrta.goodwin 
-14:36:05.001 [pool-2-thread-3] INFO  com.intuit.karate - [print] This is first Scenario 
-14:36:05.006 [pool-2-thread-3] WARN  com.intuit.karate - over-writing existing variable 'username' with new value: dataGenerator.getRandomUserName()
-14:36:05.026 [pool-2-thread-3] INFO  com.intuit.karate - [print] bryce.jerde 
-14:36:05.033 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.038 [pool-2-thread-3] INFO  com.intuit.karate - [print] myrta.goodwin 
-14:36:05.038 [pool-2-thread-3] INFO  com.intuit.karate - [print] This is second scenario 
-14:36:05.046 [pool-2-thread-3] WARN  com.intuit.karate - over-writing existing variable 'username' with new value: dataGenerator.getRandomUserName()
-14:36:05.063 [pool-2-thread-3] INFO  com.intuit.karate - [print] erik.runolfsdottir 
-14:36:05.068 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.105 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 81
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"Karate123","email":"lourdes21@test.com","username":"azima"}}
-
-14:36:05.376 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 629
+13:47:09.378 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:09.380 [pool-2-thread-3] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:conduitApp/helpers/Dummy.feature')
+13:47:09.408 [pool-2-thread-3] INFO  com.intuit.karate - [print] vonda.erdman 
+13:47:09.409 [pool-2-thread-3] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:conduitApp/helpers/Dummy.feature')
+13:47:09.410 [pool-2-thread-3] INFO  com.intuit.karate - [print] vonda.erdman 
+13:47:09.411 [pool-2-thread-3] INFO  com.intuit.karate - [print] This is first Scenario 
+13:47:09.416 [pool-2-thread-3] WARN  com.intuit.karate - over-writing existing variable 'username' with new value: dataGenerator.getRandomUserName()
+13:47:09.439 [pool-2-thread-3] INFO  com.intuit.karate - [print] leandro.mante 
+13:47:09.444 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:09.447 [pool-2-thread-3] INFO  com.intuit.karate - [print] vonda.erdman 
+13:47:09.448 [pool-2-thread-3] INFO  com.intuit.karate - [print] This is second scenario 
+13:47:09.454 [pool-2-thread-3] WARN  com.intuit.karate - over-writing existing variable 'username' with new value: dataGenerator.getRandomUserName()
+13:47:09.479 [pool-2-thread-3] INFO  com.intuit.karate - [print] refugia.crooks 
+13:47:09.544 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 259
 1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"f10-zklZlMebluLIW4oyrSU5j2N5Fo8"
+1 < Etag: W/"14c-423QE557TA1ll5zj9GGnzMSMOvc"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IM%2FWZKpOx%2Bywn6b9VWJnjSYMTqdwxrfNcM4MQD6UI%2Fw39AhcyCA1wRZ%2B8NQpo8GC3LTpN6uKXVxFTNutgNbGNe%2BM1stGcX4TwQzu9EUiQilGn0xHbHl0G%2FGa0vAkI6GVRo0U"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M7eqdrOrKiKnBqcwBdjiEfIywA8tMPZay%2FO%2BCPlYVKrmIlvr4xcT4Z0NJbe9TkvEK6iVmPnX5wQKWknPW2hYUTXo15QaGNhQlJX%2BBuseFm7jlt0MRaJEmJpYiu8CtYM0SiqV"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf369ecb193d1-DFW
+1 < CF-RAY: 6f8d268a38fe9ea1-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"articlesCount":11,"articles":[{"tagList":[],"createdAt":"2022-03-28T21:24:49.596Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Alayaya","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Alayaya-32615","updatedAt":"2022-03-28T21:24:49.596Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:54:13.658Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Qarth","title":"Maron Volmark","body":"Nothing burns like the cold.","favoritesCount":1,"slug":"Maron-Volmark-32615","updatedAt":"2022-03-28T20:54:13.658Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:52:13.583Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"Edwyn Frey","body":"buh1 bug","favoritesCount":0,"slug":"Edwyn-Frey-32615","updatedAt":"2022-03-28T20:52:13.583Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:52:21.329Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"buh1 bug","body":"buh1 bug","favoritesCount":0,"slug":"buh1-bug-32615","updatedAt":"2022-03-25T21:52:21.329Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:43:44.105Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh bug","title":"buh bug","body":"buh bug","favoritesCount":0,"slug":"buh-bug-32615","updatedAt":"2022-03-25T21:43:44.105Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T20:01:03.052Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Bla blu","body":"article","favoritesCount":0,"slug":"Bla-blu-32615","updatedAt":"2022-03-23T20:01:03.052Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T18:31:15.005Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Delete","body":"article","favoritesCount":0,"slug":"Delete-32615","updatedAt":"2022-03-23T18:31:15.005Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T15:28:56.998Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"this is topic","title":"Some title","body":"this is article","favoritesCount":0,"slug":"Some-title-32615","updatedAt":"2022-03-23T15:28:56.998Z","favorited":false},{"tagList":["implementations"],"createdAt":"2021-11-24T12:11:08.212Z","author":{"image":"https:\/\/api.realworld.io\/images\/demo-avatar.png","following":false,"bio":null,"username":"Gerome"},"description":"join the community by creating a new implementation","title":"Create a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","favoritesCount":1783,"slug":"Create-a-new-implementation-1","updatedAt":"2021-11-24T12:11:08.212Z","favorited":true},{"tagList":["codebaseShow","implementations"],"createdAt":"2021-11-24T12:11:07.952Z","author":{"image":"https:\/\/api.realworld.io\/images\/demo-avatar.png","following":false,"bio":null,"username":"Gerome"},"description":"discover the implementations created by the RealWorld community","title":"Explore implementations","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","favoritesCount":1105,"slug":"Explore-implementations-1","updatedAt":"2021-11-24T12:11:07.952Z","favorited":false}]}
-14:36:05.384 [pool-2-thread-5] INFO  com.intuit.karate - [print] Fav Count is 1 
-14:36:05.390 [pool-2-thread-5] DEBUG com.intuit.karate - request:
-2 > POST https://api.realworld.io/api/articles/Alayaya-32615/favorite
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-2 > Content-Type: application/json; charset=UTF-8
-2 > Content-Length: 2
-2 > Host: api.realworld.io
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-2 > Accept-Encoding: gzip,deflate
-{}
-
-14:36:05.434 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 543
-1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"14c-hzNdirzVcmmiD3/h76aTjEWaioc"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8zPI2kti4Fv%2BGQhdgVME9DIbeIvT0TguCNjGJIN1m0FHZLOSxsdFIY2YozwVFIAS7658MnNmV4EubDHP3mhplu%2FFGDLyHfaJFH9F71mCg6Vk7Mut%2F8ByHOCx1saL%2B0%2BO66Tz"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36adbb76793-DFW
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjEsImV4cCI6MTY1NDQ1NzU2MX0.HdkCcuEqsS9i3yM52BU4ay3iY87ro1koSOzg9y83Vgw"}}
-14:36:05.435 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 543
-1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"14c-hzNdirzVcmmiD3/h76aTjEWaioc"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F7qBvBp2qjH40L8mL5kjsV7CrwQ%2Fz%2FZnRK52ZOzLzCg9ebEM5Up80aSl8DsSs0jNo%2Ft0%2BF8OHOOreZDBl%2BV3ydfN2jtyed1wRC3bjF2ZvKQVdhPz3K1f%2FHS621vtuTtUy5id"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36aea5de023-DFW
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjEsImV4cCI6MTY1NDQ1NzU2MX0.HdkCcuEqsS9i3yM52BU4ay3iY87ro1koSOzg9y83Vgw"}}
-14:36:05.438 [pool-2-thread-2] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:conduitApp/helpers/CreateToken.feature')
-14:36:05.443 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 698
-1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"f10-zklZlMebluLIW4oyrSU5j2N5Fo8"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eZ1lDL%2FNP82g3SxV%2Fx0kV8hp2JZKWQuAOPq%2BeB3l7nvNDv2%2Blqr3JthG9yZPL1OdSbRih%2Bv7nZANrTORCx7BT7j0%2FBYhECmeVHpHJkLtd54O%2Fo2qQqsOSDuFejl3kKFdRUAO"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36a2fb29ed6-DFW
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"articlesCount":11,"articles":[{"tagList":[],"createdAt":"2022-03-28T21:24:49.596Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Alayaya","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Alayaya-32615","updatedAt":"2022-03-28T21:24:49.596Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:54:13.658Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Qarth","title":"Maron Volmark","body":"Nothing burns like the cold.","favoritesCount":1,"slug":"Maron-Volmark-32615","updatedAt":"2022-03-28T20:54:13.658Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:52:13.583Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"Edwyn Frey","body":"buh1 bug","favoritesCount":0,"slug":"Edwyn-Frey-32615","updatedAt":"2022-03-28T20:52:13.583Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:52:21.329Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"buh1 bug","body":"buh1 bug","favoritesCount":0,"slug":"buh1-bug-32615","updatedAt":"2022-03-25T21:52:21.329Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:43:44.105Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh bug","title":"buh bug","body":"buh bug","favoritesCount":0,"slug":"buh-bug-32615","updatedAt":"2022-03-25T21:43:44.105Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T20:01:03.052Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Bla blu","body":"article","favoritesCount":0,"slug":"Bla-blu-32615","updatedAt":"2022-03-23T20:01:03.052Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T18:31:15.005Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Delete","body":"article","favoritesCount":0,"slug":"Delete-32615","updatedAt":"2022-03-23T18:31:15.005Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T15:28:56.998Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"this is topic","title":"Some title","body":"this is article","favoritesCount":0,"slug":"Some-title-32615","updatedAt":"2022-03-23T15:28:56.998Z","favorited":false},{"tagList":["implementations"],"createdAt":"2021-11-24T12:11:08.212Z","author":{"image":"https:\/\/api.realworld.io\/images\/demo-avatar.png","following":false,"bio":null,"username":"Gerome"},"description":"join the community by creating a new implementation","title":"Create a new implementation","body":"Share your knowledge and enpower the community by creating a new implementation","favoritesCount":1783,"slug":"Create-a-new-implementation-1","updatedAt":"2021-11-24T12:11:08.212Z","favorited":true},{"tagList":["codebaseShow","implementations"],"createdAt":"2021-11-24T12:11:07.952Z","author":{"image":"https:\/\/api.realworld.io\/images\/demo-avatar.png","following":false,"bio":null,"username":"Gerome"},"description":"discover the implementations created by the RealWorld community","title":"Explore implementations","body":"Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.","favoritesCount":1105,"slug":"Explore-implementations-1","updatedAt":"2021-11-24T12:11:07.952Z","favorited":false}]}
-14:36:05.449 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjcsImV4cCI6MTY1NDYyNzQyN30.-efTcA5K-quJQInAni9_NtEq9QXtkb9O7WLsbWY8nsE"}}
+13:47:09.548 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:conduitApp/helpers/CreateToken.feature')
+13:47:09.554 [pool-2-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 56
 1 > Host: api.realworld.io
@@ -328,10 +247,75 @@ Clydas
 1 > Accept-Encoding: gzip,deflate
 {"user":{"password":"123456","email":"azima@gmail.com"}}
 
-14:36:05.453 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.455 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 350
+13:47:09.557 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 402
+1 < 200
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"f99-1YO7obTfZCkfhxJL07kiNzcrgiU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5t177FeYIArApGSzfNAiJZpj4AwylgX86EYD2CyYFvFxTkJ%2Bj7FxcjAlhClobUuw7Kr4Wru%2B%2F3c0d1AH1abt%2FvmJ%2BP%2BPgfOkgOk%2FU0i64sCWClFsbI22dKPuTSivRKmI0MhJ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f8d26896c70eca2-DFW
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articlesCount":34,"articles":[{"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T17:02:47.116Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Meereen","title":"Daemon Sand","body":"The things I do for love.","favoritesCount":1,"slug":"Daemon-Sand-32615","updatedAt":"2022-04-07T17:02:47.116Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:46:31.134Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Old Ghis","title":"Aemon Costayne","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","favoritesCount":1,"slug":"Aemon-Costayne-32615","updatedAt":"2022-04-07T15:46:31.134Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.101Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Tyrosh","title":"Amarei Crakehall","body":"When you play a game of thrones you win or you die.","favoritesCount":1,"slug":"Amarei-Crakehall-32615","updatedAt":"2022-04-07T15:45:35.101Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.095Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Brandon the Daughterless","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Brandon-the-Daughterless-32615","updatedAt":"2022-04-07T15:45:35.095Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:45:12.654Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Kym","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":1,"slug":"Kym-32615","updatedAt":"2022-04-07T15:45:12.654Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:12.643Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Asshai","title":"Narbo","body":"Summer will end soon enough, and childhood as well.","favoritesCount":0,"slug":"Narbo-32615","updatedAt":"2022-04-07T15:45:12.643Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:44:47.968Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Bhorash","title":"Hosman Norcross","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":1,"slug":"Hosman-Norcross-32615","updatedAt":"2022-04-07T15:44:47.968Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:44:47.931Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Myr","title":"Roland Crakehall","body":"Do the dead frighten you?","favoritesCount":0,"slug":"Roland-Crakehall-32615","updatedAt":"2022-04-07T15:44:47.931Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:43:56.163Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Uller","body":"Once you\u2019ve accepted your flaws, no one can use them against you.","favoritesCount":1,"slug":"Uller-32615","updatedAt":"2022-04-07T15:43:56.163Z","favorited":true}]}
+13:47:09.557 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 402
+1 < 200
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"f99-1YO7obTfZCkfhxJL07kiNzcrgiU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IrJX6vZ%2BLKk1wH4yeHTDFvsCdbNg44BjlcBFzm5SYm06S44iN2gSGtvsr0J2zhDwmdAZo427WUZiaZ%2Fb6NBEFdsLfCeDbeb0K2yT%2BgEHvqp3z6iRA9uQPvuEaTXOr1uSCkyP"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f8d26896a099ef5-DFW
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articlesCount":34,"articles":[{"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T17:02:47.116Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Meereen","title":"Daemon Sand","body":"The things I do for love.","favoritesCount":1,"slug":"Daemon-Sand-32615","updatedAt":"2022-04-07T17:02:47.116Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:46:31.134Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Old Ghis","title":"Aemon Costayne","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","favoritesCount":1,"slug":"Aemon-Costayne-32615","updatedAt":"2022-04-07T15:46:31.134Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.101Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Tyrosh","title":"Amarei Crakehall","body":"When you play a game of thrones you win or you die.","favoritesCount":1,"slug":"Amarei-Crakehall-32615","updatedAt":"2022-04-07T15:45:35.101Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.095Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Brandon the Daughterless","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Brandon-the-Daughterless-32615","updatedAt":"2022-04-07T15:45:35.095Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:45:12.654Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Kym","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":1,"slug":"Kym-32615","updatedAt":"2022-04-07T15:45:12.654Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:12.643Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Asshai","title":"Narbo","body":"Summer will end soon enough, and childhood as well.","favoritesCount":0,"slug":"Narbo-32615","updatedAt":"2022-04-07T15:45:12.643Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:44:47.968Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Bhorash","title":"Hosman Norcross","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":1,"slug":"Hosman-Norcross-32615","updatedAt":"2022-04-07T15:44:47.968Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:44:47.931Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Myr","title":"Roland Crakehall","body":"Do the dead frighten you?","favoritesCount":0,"slug":"Roland-Crakehall-32615","updatedAt":"2022-04-07T15:44:47.931Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:43:56.163Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Uller","body":"Once you\u2019ve accepted your flaws, no one can use them against you.","favoritesCount":1,"slug":"Uller-32615","updatedAt":"2022-04-07T15:43:56.163Z","favorited":true}]}
+13:47:09.562 [pool-2-thread-5] INFO  com.intuit.karate - [print] Fav Count is 0 
+13:47:09.569 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+2 > POST https://api.realworld.io/api/articles/Cortnay-Penrose-32615/favorite
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 2
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 > Accept-Encoding: gzip,deflate
+{}
+
+13:47:09.643 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 349
+1 < 200
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"14c-423QE557TA1ll5zj9GGnzMSMOvc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0nEpyxr9du08lUxUaMbMDP0Fs5tSvS3VtLr%2BdIkAM%2B7C%2BJzqse7ajTFePKGyuo8tF1irzLVmxBlTdzDx%2B1QaW0WF9zgwxjcxHR0TniOk20piUXODxpLbQ74RB6Mt1npq9d8I"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f8d268a3ef20f3a-DFW
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjcsImV4cCI6MTY1NDYyNzQyN30.-efTcA5K-quJQInAni9_NtEq9QXtkb9O7WLsbWY8nsE"}}
+13:47:09.643 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 305
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 50
 1 < Connection: keep-alive
@@ -341,16 +325,16 @@ Clydas
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7Z8HPaHpUpAHNkPA1odRmfbyabwcwxBHQRr6JmMPbDfj7gZFyMg24EzupWCUH1XynXmJEkTuek7XtdFPwMS6sxrQsPYabQYYHNp3tBE%2BjxNNgPUjn9Mhf5dZh%2BXRYZHNr3FE"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RQy%2BdegiST6E31XObCB3nRK9HrBeIkC6xHvb8WTbWNxZAgqykXm3NQaPhfqYQbE8nmfGDQy%2FcHkT9m0gySZMCvcFJxbkMnAHsD4l1aZTHOCfNeX4FzGeYQF4wU7ZZAjJs8Fo"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36c393d9f00-DFW
+1 < CF-RAY: 6f8d268a8f459f13-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"errors":{"username":["has already been taken"]}}
-14:36:05.463 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.500 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+13:47:09.649 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:09.691 [pool-3-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 85
 1 > Host: api.realworld.io
@@ -359,109 +343,80 @@ Clydas
 1 > Accept-Encoding: gzip,deflate
 {"user":{"password":"123Karate123","email":"azima23@gmail.com","username":"azima12"}}
 
-14:36:05.507 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 83
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"123Karate123","email":"azima23","username":"orlando.wiegand"}}
+13:47:09.812 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 257
+1 < 200
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"14c-423QE557TA1ll5zj9GGnzMSMOvc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aGSMzFJ9vf%2BVzJUBZHpe3zvb8euppXCWys9UzvOvBSaHf2SJAdTeztNtA%2Fvmx6D6HLhQ8GFsWV3HpN9bqS0X7yqzi2dP12eIy2DZW1eSVJfJ5Sd3dqHvaS%2BoGSDu%2FwVLOGcb"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f8d268befb8c7f2-DFW
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjcsImV4cCI6MTY1NDYyNzQyN30.-efTcA5K-quJQInAni9_NtEq9QXtkb9O7WLsbWY8nsE"}}
+13:47:09.816 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:conduitApp/helpers/CreateToken.feature')
+13:47:09.816 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 170 milliseconds for callonce lock: read('classpath:conduitApp/helpers/CreateToken.feature')
+13:47:09.816 [pool-2-thread-1] WARN  com.intuit.karate - over-writing existing variable 'token' with new value: tokenResponse.authToken
+13:47:09.816 [pool-2-thread-2] WARN  com.intuit.karate - over-writing existing variable 'token' with new value: tokenResponse.authToken
+13:47:09.819 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > POST https://api.realworld.io/api/articles
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 135
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"description":"Ar Noy","title":"Myria Jordayne","body":"When you play a game of thrones you win or you die."}}
 
-14:36:05.591 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 200
+13:47:09.819 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+2 > POST https://api.realworld.io/api/articles
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 129
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"description":"Sar Meel","title":"Malwyn Frey","body":"All dwarfs are bastards in their father's eyes"}}
+
+13:47:09.827 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 257
 2 < 200
-2 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+2 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 2 < Content-Type: application/json; charset=utf-8
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
 2 < Access-Control-Allow-Origin: *
-2 < Etag: W/"277-15esrwP7SAHHSQezjUvrplZtkpg"
+2 < Etag: W/"287-yrzUM10ppbSsGJKAPETkCGjVrzs"
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZLQfVDfZ0d%2FMxjdubPPiz%2FNrN9IYNNaqWWggNIKkiAHrODhIix8w5DGuReXB6%2F8wNRTZdfELxemV9KkTdTvGvI9HOUZn6OwuVTMHZtqF4Pk1MzZG2NobxNm3j8qXNBaKq%2Bzh"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IWFYgHp4VoZtnie0lxJm5YFdVKG38kG%2B4y4%2FNP2vNUA8HyC2Q7P5QVe%2FaynfyYkpH2XyVkrzApikGBN7LlBhxdR0tSG2xJ4%2BRjQiW6E5s%2FG%2BpDpCl6DM%2Fqd0Z6kKbX7vCmJb"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6f7cf36dfd250f3a-DFW
+2 < CF-RAY: 6f8d268c08b9e023-DFW
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Alayaya","body":"Every flight begins with a fall.","authorId":32615,"favoritesCount":1,"tagList":[],"createdAt":"2022-03-28T21:24:49.596Z","favoritedBy":[{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","password":"$2a$10$NK8nY3U\/ot.goW45ejd3UOXgEw1.JX4AdCkg9LvLecgzX0qoeFQMe","bio":null,"id":32615,"demo":false,"email":"azima@gmail.com","username":"azima123"}],"id":47738,"slug":"Alayaya-32615","updatedAt":"2022-03-28T21:24:49.596Z","favorited":true}}
-14:36:05.606 [pool-2-thread-5] DEBUG com.intuit.karate - request:
-3 > GET https://api.realworld.io/api/articles/Alayaya-32615
-3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+{"article":{"author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","authorId":32615,"favoritesCount":1,"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","favoritedBy":[{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","password":"$2a$10$NK8nY3U\/ot.goW45ejd3UOXgEw1.JX4AdCkg9LvLecgzX0qoeFQMe","bio":null,"id":32615,"demo":false,"email":"azima@gmail.com","username":"azima123"}],"id":51679,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":true}}
+13:47:09.837 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+3 > GET https://api.realworld.io/api/articles/Cortnay-Penrose-32615
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 3 > Host: api.realworld.io
 3 > Connection: Keep-Alive
 3 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 3 > Accept-Encoding: gzip,deflate
 
 
-14:36:05.789 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 339
-1 < 200
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"14c-hzNdirzVcmmiD3/h76aTjEWaioc"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=acNeQYWrGq%2FnV1K%2Bt%2BhcBtKdcSUpziDvXGK8RP%2B7a3s7BAK6l72aTzOt68DlOZHBrjh0xA8KhwuHNrLsJDAfWh5GbcJ3Zg4uFG%2F2Mpgq0sfs%2F4a49%2FWx33mI%2FePu4Lgo7qu3"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36e6cabc7fe-DFW
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"user":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","bio":null,"email":"azima@gmail.com","username":"azima123","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjEsImV4cCI6MTY1NDQ1NzU2MX0.HdkCcuEqsS9i3yM52BU4ay3iY87ro1koSOzg9y83Vgw"}}
-14:36:05.791 [pool-2-thread-2] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:conduitApp/helpers/CreateToken.feature')
-14:36:05.791 [pool-2-thread-1] WARN  com.intuit.karate - this thread waited 353 milliseconds for callonce lock: read('classpath:conduitApp/helpers/CreateToken.feature')
-14:36:05.791 [pool-2-thread-2] WARN  com.intuit.karate - over-writing existing variable 'token' with new value: tokenResponse.authToken
-14:36:05.791 [pool-2-thread-1] WARN  com.intuit.karate - over-writing existing variable 'token' with new value: tokenResponse.authToken
-14:36:05.794 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-2 > POST https://api.realworld.io/api/articles
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-2 > Content-Type: application/json; charset=UTF-8
-2 > Content-Length: 132
-2 > Host: api.realworld.io
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-2 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":[],"description":"Norvos","title":"Clydas","body":"A lion doesn't concern itself with the opinion of sheep."}}
-
-14:36:05.794 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-2 > POST https://api.realworld.io/api/articles
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-2 > Content-Type: application/json; charset=UTF-8
-2 > Content-Length: 270
-2 > Host: api.realworld.io
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-2 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":[],"description":"Ar Noy","title":"Helman Tallhart","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear."}}
-
-14:36:05.797 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 289
+13:47:09.855 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 164
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 47
-1 < Connection: keep-alive
-1 < X-Powered-By: Express
-1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qFjvTMAHA16hMnwDJxbh39q3yEYI1Od6ScIdTqacFBYI2NedpauooyGojwckArSRTq7dXP3MUAugKTI9UmGBFZGd%2BeDKsJCNtmbnVslZtz6HyOcYNLUwNWU36TIsm0VwYoJM"}],"group":"cf-nel","max_age":604800}
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36ebe600bfb-DFW
-1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"email":["has already been taken"]}}
-14:36:05.801 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 301
-1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 85
 1 < Connection: keep-alive
@@ -471,162 +426,141 @@ Clydas
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jJEsnEMcRTbITEWu2HGkTX5ZQ6XRZO1o%2F%2BuaiF1kXVha3j9%2B4ZEFPMvXWkdbLwSwx1btJJ3djWk3ZskoXf3jthIOK1tpydKYn3I844gH1BV9C6RZFe806VuCxX9WWjBFATAi"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=do9eJ08tCBtStdxiXawIxl56bTN4KiixorGfWCoycaQaTh%2BGds1YPqZOsvEeMfllrCfvwiVQXX3PEAidQ7KPfO9hYmCBuzJl1baP4lhyhiix%2BQzEiMJNC6FWnf7Nks4h%2B9hQ"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf36eaa486737-DFW
+1 < CF-RAY: 6f8d268cb8069f1f-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"errors":{"email":["has already been taken"],"username":["has already been taken"]}}
-14:36:05.806 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.810 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.856 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+13:47:09.860 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:09.898 [pool-3-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 102
+1 > Content-Length: 83
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"123Karate123","email":"woodrow79@test.com","username":"azima120786595656565656"}}
+{"user":{"password":"123Karate123","email":"azima23","username":"clayton.oreilly"}}
 
-14:36:05.862 [pool-2-thread-4] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 68
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"123Karate123","email":"","username":"azima12"}}
-
-14:36:05.868 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 262
-3 < 200
-3 < Date: Wed, 06 Apr 2022 19:32:41 GMT
-3 < Content-Type: application/json; charset=utf-8
-3 < Transfer-Encoding: chunked
-3 < Connection: keep-alive
-3 < X-Powered-By: Express
-3 < Access-Control-Allow-Origin: *
-3 < Etag: W/"170-U61MQn/kOeSN4RCEhFAPy1WkPTE"
-3 < Via: 1.1 vegur
-3 < CF-Cache-Status: DYNAMIC
-3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HdwbSw4D%2B3qTba%2BgeukPwB%2FPjo0gUCIhqiSBpIBowYrP0zUzhcrtLbbpZoQEFhGD%2Bo8%2BLJ29sJtchtMhECEi8wEaQW93AWz2nd%2Fv7LAZVc53uv4hVh%2FZHViBlAs0Jsp5DUhv"}],"group":"cf-nel","max_age":604800}
-3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-3 < Server: cloudflare
-3 < CF-RAY: 6f7cf36f4eb72f79-DFW
-3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"tagList":[],"createdAt":"2022-03-28T21:24:49.596Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Alayaya","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Alayaya-32615","updatedAt":"2022-03-28T21:24:49.596Z","favorited":true}}
-14:36:05.870 [pool-2-thread-5] INFO  com.intuit.karate - [print] {
-  "article": {
-    "tagList": [
-    ],
-    "createdAt": "2022-03-28T21:24:49.596Z",
-    "author": {
-      "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
-      "following": false,
-      "bio": null,
-      "username": "azima123"
-    },
-    "description": "Ar Noy",
-    "title": "Alayaya",
-    "body": "Every flight begins with a fall.",
-    "favoritesCount": 1,
-    "slug": "Alayaya-32615",
-    "updatedAt": "2022-03-28T21:24:49.596Z",
-    "favorited": true
-  }
-}
- 
-14:36:05.874 [pool-2-thread-5] ERROR com.intuit.karate - classpath:conduitApp/feature/homework.feature:63
-And match response.article.favoritesCount == count + 1
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  1
-  2
-
-classpath:conduitApp/feature/homework.feature:63
-14:36:05.882 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:05.918 [pool-2-thread-5] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 73
-1 > Host: api.realworld.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"","email":"azima23@gmail.com","username":"azima12"}}
-
-14:36:06.004 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 209
+13:47:09.995 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 175
 2 < 200
-2 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+2 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 2 < Content-Type: application/json; charset=utf-8
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
 2 < Access-Control-Allow-Origin: *
-2 < Etag: W/"187-Ez/Cn1OlShdC1R/UWNip3Z/lhPs"
+2 < Etag: W/"192-YS9BEey5agUbO9RtCyCCt8Iatnw"
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=J6Xc%2Bs95R0xNUID4NFGOybNfDhU%2FQKDb8eYbGm0JObrFB98BE%2Bx0ECwAF8zpQrFE1QuJJtzTkxi2C6ccOssWjpMGQTG%2FDk%2FVd09e6Wa65v2qQ%2BA4bUUQ4iRTZsglyku2TbWf"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HI5ykolStcsSWnn%2BoFeS%2BPmH7xAzk5DkE6Bhf79YP7YG1fDxogqB95aKy0rqbuBNcNmQx0NUWzLs89npdAyMt8YvbKFjckImpaq4RGBcuR7ketJpeKpCpwVvxoR3iXoA3bTv"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6f7cf3708aea9eef-DFW
+2 < CF-RAY: 6f8d268d8c85ecaf-DFW
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"tagList":[],"createdAt":"2022-04-06T19:32:41.759Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Norvos","title":"Clydas","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":0,"slug":"Clydas-32615","updatedAt":"2022-04-06T19:32:41.759Z","favorited":false}}
-14:36:06.008 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 214
+{"article":{"tagList":[],"createdAt":"2022-04-08T18:43:47.516Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Myria Jordayne","body":"When you play a game of thrones you win or you die.","favoritesCount":0,"slug":"Myria-Jordayne-32615","updatedAt":"2022-04-08T18:43:47.516Z","favorited":false}}
+13:47:09.996 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 175
 2 < 200
-2 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+2 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 2 < Content-Type: application/json; charset=utf-8
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
 2 < X-Powered-By: Express
 2 < Access-Control-Allow-Origin: *
-2 < Etag: W/"21a-8BhhjshwguX59o/cg9Ar7y9VwMA"
+2 < Etag: W/"189-4ZDYJiuMfGGR8XqzkeeEIAL65Gk"
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: DYNAMIC
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sg%2B3%2F26JJUI6jVZDPoWxyXQsKBvopaupGILviMt6yiv9fqc%2FXcsn2iKafF8UZbtiyO2B3ieNivK%2Bs42zGAYDQoGnv2mKHWELonyOtFEfD0N4LVGFTq6N0rA2fNTewtM6uaG5"}],"group":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iiXEvrKF%2F%2BPeGDhLNs2PT9IE3Jmos%2Bei4fR8sKOd2avGnUIOYadE%2F0u8mPKPKPBsJPWdLZghJv3JtVG4UHeqchHy6bn6lPklmTvYI9Vpds9r5mySLYz%2FozXfo9ZRIkOCOGji"}],"group":"cf-nel","max_age":604800}
 2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 2 < Server: cloudflare
-2 < CF-RAY: 6f7cf3709fab8163-DFW
+2 < CF-RAY: 6f8d268d98a79f0d-DFW
 2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"article":{"tagList":[],"createdAt":"2022-04-06T19:32:41.773Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Helman Tallhart","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":0,"slug":"Helman-Tallhart-32615","updatedAt":"2022-04-06T19:32:41.773Z","favorited":false}}
-14:36:06.010 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+{"article":{"tagList":[],"createdAt":"2022-04-08T18:43:47.520Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Sar Meel","title":"Malwyn Frey","body":"All dwarfs are bastards in their father's eyes","favoritesCount":0,"slug":"Malwyn-Frey-32615","updatedAt":"2022-04-08T18:43:47.520Z","favorited":false}}
+13:47:10.001 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 3 > GET https://api.realworld.io/api/articles?limit=10&offset=0
-3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 3 > Host: api.realworld.io
 3 > Connection: Keep-Alive
 3 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 3 > Accept-Encoding: gzip,deflate
 
 
-14:36:06.020 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-14:36:06.022 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 160
+13:47:10.058 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 159
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 39
+1 < Content-Length: 47
 1 < Connection: keep-alive
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pC8yvXGZs94%2Fe8Cn5yW5H%2FTAZ0ZmABspH1rRLwqmRJQkAAWM28R9Q2zDTHcicE20yaCQZBlj1uhrMNyBy1V6Q1lYgi5XjSa%2Bt0QAxUG7i92QUksQboE7ThyXdMqsmz%2FvP4vi"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DjQTTD3LyNysDOsX%2FdkTgMLXE3uR7K8aNS97HfEb93YF%2BWYaMWBDGQKd%2FiEkAD%2FZg0QIzrNE2XXSCyAi8OPDrFFUB5RWypdTmve9tWg9ZC4wHpe6x%2FG%2BVlB%2B2fSxdkJwrMwS"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf370ed6f9f0d-DFW
+1 < CF-RAY: 6f8d268e0ea46737-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"errors":{"email":["can't be blank"]}}
-14:36:06.035 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 178
+{"errors":{"email":["has already been taken"]}}
+13:47:10.063 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:10.089 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 249
+3 < 200
+3 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"180-oeRH5R+LNjUL0PmpB21T92zyHuM"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BzF9zrIOU%2Br9FGMuiWOP7q%2B1g52QRcgyotMmT9mbdGUUBEef3m9neNDZLZ0vIAQGvaB4CkhU7kGAUJtIpajY9i6RyVQrCwRsUV7oSHjsAUazjjNRFKUpXSYypM0SPEansLsG"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 6f8d268dba7328e0-DFW
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"article":{"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":true}}
+13:47:10.091 [pool-2-thread-5] INFO  com.intuit.karate - [print] {
+  "article": {
+    "tagList": [
+    ],
+    "createdAt": "2022-04-07T17:11:05.734Z",
+    "author": {
+      "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+      "following": false,
+      "bio": null,
+      "username": "azima123"
+    },
+    "description": "Lorath",
+    "title": "Cortnay Penrose",
+    "body": "Every flight begins with a fall.",
+    "favoritesCount": 1,
+    "slug": "Cortnay-Penrose-32615",
+    "updatedAt": "2022-04-07T17:11:05.734Z",
+    "favorited": true
+  }
+}
+ 
+13:47:10.102 [pool-3-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 104
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"password":"123Karate123","email":"georgiann16@test.com","username":"azima120786595656565656"}}
+
+13:47:10.278 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 175
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:47 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 50
 1 < Connection: keep-alive
@@ -636,26 +570,110 @@ classpath:conduitApp/feature/homework.feature:63
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sIKOZYtfDi%2BH%2BO0Uu7Vd3cd3elIJv0q%2Bcr5yqGvmLV9y88fQakCfSlnxQqfNu3JorTJOsY7hCUu2BvfKrbqWtm%2FLftCYbY2rPn4fW7iuHFlIrZOteAjiHCQ%2BoAB3jrQU9Fp9"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OfaE7wvAtNvHnhASRdpoVOsHkiWWLwVnLZXi1zjmvRygOdAaT4c6ODTt6nhRWMJhpcs1e9%2BCM03HNWrYsS%2BxJhKoIb7Oes3TVsZPDSWG9vNRyoW0VKlDc8BKB1PgUQHYxo0u"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf370dde59ee8-DFW
+1 < CF-RAY: 6f8d268f4b5fec7a-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"errors":{"username":["has already been taken"]}}
-14:36:06.059 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+13:47:10.285 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:10.305 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 302
+3 < 200
+3 < Date: Fri, 08 Apr 2022 18:43:47 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"faa-w/ECflUidKLN/y3q7vuKCHBZ7Zw"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L5osPsw1T1fjdCVC9v7JaskXjoKVrECzrTJvVKvqaEp0I3%2F%2F6b0Uvda2K9HFAIHxTbLgbrjFRyL9tv76lB7YOkjgZj3NfMTjopc%2BuigxcbrWDaUNjvLHHeMeT6tCWsSl8dw2"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 6f8d268ebf83679c-DFW
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articlesCount":36,"articles":[{"tagList":[],"createdAt":"2022-04-08T18:43:47.520Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Sar Meel","title":"Malwyn Frey","body":"All dwarfs are bastards in their father's eyes","favoritesCount":0,"slug":"Malwyn-Frey-32615","updatedAt":"2022-04-08T18:43:47.520Z","favorited":false},{"tagList":[],"createdAt":"2022-04-08T18:43:47.516Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Myria Jordayne","body":"When you play a game of thrones you win or you die.","favoritesCount":0,"slug":"Myria-Jordayne-32615","updatedAt":"2022-04-08T18:43:47.516Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T17:02:47.116Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Meereen","title":"Daemon Sand","body":"The things I do for love.","favoritesCount":1,"slug":"Daemon-Sand-32615","updatedAt":"2022-04-07T17:02:47.116Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:46:31.134Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Old Ghis","title":"Aemon Costayne","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","favoritesCount":1,"slug":"Aemon-Costayne-32615","updatedAt":"2022-04-07T15:46:31.134Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.101Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Tyrosh","title":"Amarei Crakehall","body":"When you play a game of thrones you win or you die.","favoritesCount":1,"slug":"Amarei-Crakehall-32615","updatedAt":"2022-04-07T15:45:35.101Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.095Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Brandon the Daughterless","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Brandon-the-Daughterless-32615","updatedAt":"2022-04-07T15:45:35.095Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:45:12.654Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Kym","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":1,"slug":"Kym-32615","updatedAt":"2022-04-07T15:45:12.654Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:12.643Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Asshai","title":"Narbo","body":"Summer will end soon enough, and childhood as well.","favoritesCount":0,"slug":"Narbo-32615","updatedAt":"2022-04-07T15:45:12.643Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:44:47.968Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Bhorash","title":"Hosman Norcross","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":1,"slug":"Hosman-Norcross-32615","updatedAt":"2022-04-07T15:44:47.968Z","favorited":true}]}
+13:47:10.310 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+4 > DELETE https://api.realworld.io/api/articles/Myria-Jordayne-32615
+4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+4 > Host: api.realworld.io
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+4 > Accept-Encoding: gzip,deflate
+
+
+13:47:10.331 [pool-3-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDkyNzM1NjAsImV4cCI6MTY1NDQ1NzU2MH0.vxqmBgUskP3hDTJ4r7DYQMlvAmbLuo6PcyTon6DeDF8
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 78
+1 > Content-Length: 68
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
 1 > Accept-Encoding: gzip,deflate
-{"user":{"password":"123Karate123","email":"azima23@gmail.com","username":""}}
+{"user":{"password":"123Karate123","email":"","username":"azima12"}}
 
-14:36:06.089 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 169
+13:47:10.481 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 150
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:41 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 39
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aOPb9tsqZ%2BDzkUHm9tWaAATRMLm%2BcHHazMiJx5CLI8fEZkwMQWOHy0Ng3US%2BV6cl%2BwSlaE5bzo10c3Ca8awXODOxUN1U9WGu3GburqFYTDUIzvwfiEorfm8SoA8WSBEq%2BQDp"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f8d2690bebf9ee8-DFW
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["can't be blank"]}}
+13:47:10.487 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:10.489 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 179
+4 < 204
+4 < Date: Fri, 08 Apr 2022 18:43:48 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+4 < Via: 1.1 vegur
+4 < CF-Cache-Status: DYNAMIC
+4 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CddqgCrWcxmF9S1XGLMCzyfO%2BX%2BjQheMJF4YJhZFN35L5qV6kry2bJt9Pc9hZpyxE%2ByawrWSxwNMzhTJvqSSjV04jH2yIM2Mrsx%2BV1apCeP1yjczoxVZZGcpWAr2xeLs5weu"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 6f8d2690b852d292-DFW
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+13:47:10.492 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+5 > GET https://api.realworld.io/api/articles?limit=10&offset=0
+5 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+5 > Host: api.realworld.io
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+5 > Accept-Encoding: gzip,deflate
+
+
+13:47:10.524 [pool-3-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"password":"","email":"azima23@gmail.com","username":"azima12"}}
+
+13:47:10.693 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 168
+1 < 422
+1 < Date: Fri, 08 Apr 2022 18:43:48 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 42
 1 < Connection: keep-alive
@@ -665,15 +683,45 @@ classpath:conduitApp/feature/homework.feature:63
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mlyui6ZvxP6xHCGcwG06iUqgDENrexYpDFnKpG1iCgeu1uKD2sPg2bNDhtuWc7VcoR9L0sxJoZeOswkMGwsGVkavjJK%2FLngcnUZoqvx%2BU0Zl%2FQC7lXY3KtV2SNHW8gOaUWOr"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UfU%2F1prEFuDRx0jUFP%2FgOn9VhYs1TrflF6lhn4XHu1q73eyyLGdWPeF38VeLP%2FESnCuvy60QkbS5UiiNGsDcLtsPmTNtLdb4vyxYYLeLbKZxq%2BTPKldKiHtxQs4MplBuSeM%2B"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf37148900ed6-DFW
+1 < CF-RAY: 6f8d2691eda8679c-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"errors":{"password":["can't be blank"]}}
-14:36:06.259 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 200
+13:47:10.703 [pool-3-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:10.736 [pool-3-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF6aW1hQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYXppbWExMjMiLCJpYXQiOjE2NDk0NDM0MjYsImV4cCI6MTY1NDYyNzQyNn0.Ho6bTm4-NV7ij_yAHV8OMskbS3PELlmBeQJkdffNNAA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 78
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"password":"123Karate123","email":"azima23@gmail.com","username":""}}
+
+13:47:10.838 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 343
+5 < 200
+5 < Date: Fri, 08 Apr 2022 18:43:48 GMT
+5 < Content-Type: application/json; charset=utf-8
+5 < Transfer-Encoding: chunked
+5 < Connection: keep-alive
+5 < X-Powered-By: Express
+5 < Access-Control-Allow-Origin: *
+5 < Etag: W/"f91-A7nat1+u8FWIYuJrUIkdKb1jL4Y"
+5 < Via: 1.1 vegur
+5 < CF-Cache-Status: DYNAMIC
+5 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+5 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hm12tTERNIwHHlmWWDGmubrjZRuX7LIEfklelLOUVYm6jNmNhGjlNfs6yWEDoZkjyGsZ9pGeNOhAVFJyg9KqfwQ91jQphTrELAA%2BUCQkQdNKa5yat8R6zmwRjo96J4RdXIPL"}],"group":"cf-nel","max_age":604800}
+5 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+5 < Server: cloudflare
+5 < CF-RAY: 6f8d2691bea4288f-DFW
+5 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articlesCount":35,"articles":[{"tagList":[],"createdAt":"2022-04-08T18:43:47.520Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Sar Meel","title":"Malwyn Frey","body":"All dwarfs are bastards in their father's eyes","favoritesCount":0,"slug":"Malwyn-Frey-32615","updatedAt":"2022-04-08T18:43:47.520Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T17:11:05.734Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Lorath","title":"Cortnay Penrose","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Cortnay-Penrose-32615","updatedAt":"2022-04-07T17:11:05.734Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T17:02:47.116Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Meereen","title":"Daemon Sand","body":"The things I do for love.","favoritesCount":1,"slug":"Daemon-Sand-32615","updatedAt":"2022-04-07T17:02:47.116Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:46:31.134Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Old Ghis","title":"Aemon Costayne","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","favoritesCount":1,"slug":"Aemon-Costayne-32615","updatedAt":"2022-04-07T15:46:31.134Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.101Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Tyrosh","title":"Amarei Crakehall","body":"When you play a game of thrones you win or you die.","favoritesCount":1,"slug":"Amarei-Crakehall-32615","updatedAt":"2022-04-07T15:45:35.101Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:35.095Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Brandon the Daughterless","body":"Every flight begins with a fall.","favoritesCount":0,"slug":"Brandon-the-Daughterless-32615","updatedAt":"2022-04-07T15:45:35.095Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:45:12.654Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Oldtown","title":"Kym","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":1,"slug":"Kym-32615","updatedAt":"2022-04-07T15:45:12.654Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:45:12.643Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Asshai","title":"Narbo","body":"Summer will end soon enough, and childhood as well.","favoritesCount":0,"slug":"Narbo-32615","updatedAt":"2022-04-07T15:45:12.643Z","favorited":false},{"tagList":[],"createdAt":"2022-04-07T15:44:47.968Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Bhorash","title":"Hosman Norcross","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":1,"slug":"Hosman-Norcross-32615","updatedAt":"2022-04-07T15:44:47.968Z","favorited":true},{"tagList":[],"createdAt":"2022-04-07T15:44:47.931Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Myr","title":"Roland Crakehall","body":"Do the dead frighten you?","favoritesCount":0,"slug":"Roland-Crakehall-32615","updatedAt":"2022-04-07T15:44:47.931Z","favorited":false}]}
+13:47:10.907 [pool-3-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 169
 1 < 422
-1 < Date: Wed, 06 Apr 2022 19:32:42 GMT
+1 < Date: Fri, 08 Apr 2022 18:43:48 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 42
 1 < Connection: keep-alive
@@ -683,94 +731,147 @@ classpath:conduitApp/feature/homework.feature:63
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RjHsruxQYuM%2Bcy1rzdi%2B%2Bj%2FDpm%2B1PUApeNyK37I8Fu%2BV4bRFj8vyEQEok7OL79ORUIKXgzPmuUqZvFQe2B3W2ChSREbQVNUmeFjsnactvtranYyySLg5kxGEgt0jv0Iyx64f"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=leGToMxKQ4JYpYT8g%2Ficxr%2Fa6gbF30goLqAuuGVmC6rYRYuSnlEfgVbklHd0BMjSB%2FSNrazZ73oYU9TIh1p23LdzT%2FFADnawcnB74Mo8wyLPYQish6oVuWlGmed3nKIibvMG"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 6f7cf3722a0993e0-DFW
+1 < CF-RAY: 6f8d26934e7c93eb-DFW
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 {"errors":{"username":["can't be blank"]}}
-14:36:06.300 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 285
-3 < 200
-3 < Date: Wed, 06 Apr 2022 19:32:42 GMT
-3 < Content-Type: application/json; charset=utf-8
-3 < Transfer-Encoding: chunked
-3 < Connection: keep-alive
-3 < X-Powered-By: Express
-3 < Access-Control-Allow-Origin: *
-3 < Etag: W/"e6d-XnlEk9a/4ijr8Dl52XR0iXU5+HA"
-3 < Via: 1.1 vegur
-3 < CF-Cache-Status: DYNAMIC
-3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xC9UZvMisF8hcGCnJb3E0uFTdJ59KN11gaeStNHKfS69ABENQIxgUfYx49rhKcGuxxic%2BChzdnf%2By58vet%2FnzNDPquXTthB4xdvI0mmJFYGUX2AIvE09IbxWnu2K4c4snU%2Fw"}],"group":"cf-nel","max_age":604800}
-3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-3 < Server: cloudflare
-3 < CF-RAY: 6f7cf371dd2e6780-DFW
-3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-{"articlesCount":13,"articles":[{"tagList":[],"createdAt":"2022-04-06T19:32:41.773Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Helman Tallhart","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","favoritesCount":0,"slug":"Helman-Tallhart-32615","updatedAt":"2022-04-06T19:32:41.773Z","favorited":false},{"tagList":[],"createdAt":"2022-04-06T19:32:41.759Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Norvos","title":"Clydas","body":"A lion doesn't concern itself with the opinion of sheep.","favoritesCount":0,"slug":"Clydas-32615","updatedAt":"2022-04-06T19:32:41.759Z","favorited":false},{"tagList":[],"createdAt":"2022-03-28T21:24:49.596Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Ar Noy","title":"Alayaya","body":"Every flight begins with a fall.","favoritesCount":1,"slug":"Alayaya-32615","updatedAt":"2022-03-28T21:24:49.596Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:54:13.658Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"Qarth","title":"Maron Volmark","body":"Nothing burns like the cold.","favoritesCount":1,"slug":"Maron-Volmark-32615","updatedAt":"2022-03-28T20:54:13.658Z","favorited":true},{"tagList":[],"createdAt":"2022-03-28T20:52:13.583Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"Edwyn Frey","body":"buh1 bug","favoritesCount":0,"slug":"Edwyn-Frey-32615","updatedAt":"2022-03-28T20:52:13.583Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:52:21.329Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh1bug","title":"buh1 bug","body":"buh1 bug","favoritesCount":0,"slug":"buh1-bug-32615","updatedAt":"2022-03-25T21:52:21.329Z","favorited":false},{"tagList":[],"createdAt":"2022-03-25T21:43:44.105Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"buh bug","title":"buh bug","body":"buh bug","favoritesCount":0,"slug":"buh-bug-32615","updatedAt":"2022-03-25T21:43:44.105Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T20:01:03.052Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Bla blu","body":"article","favoritesCount":0,"slug":"Bla-blu-32615","updatedAt":"2022-03-23T20:01:03.052Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T18:31:15.005Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"article","title":"Delete","body":"article","favoritesCount":0,"slug":"Delete-32615","updatedAt":"2022-03-23T18:31:15.005Z","favorited":false},{"tagList":[],"createdAt":"2022-03-23T15:28:56.998Z","author":{"image":"https:\/\/api.realworld.io\/images\/smiley-cyrus.jpeg","following":false,"bio":null,"username":"azima123"},"description":"this is topic","title":"Some title","body":"this is article","favoritesCount":0,"slug":"Some-title-32615","updatedAt":"2022-03-23T15:28:56.998Z","favorited":false}]}
-14:36:06.305 [pool-2-thread-2] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:43
-And match response.articles[0].title == articleRequestBody.article.title
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'Helman Tallhart'
-  'Clydas'
-
-classpath:conduitApp/feature/Articles.feature:43
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/Articles.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 2.8654
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.5713
 ---------------------------------------------------------
 
-14:36:07.398 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:conduitApp/feature/Articles.feature
+13:47:12.120 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:conduitApp/feature/Articles.feature
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/HomePage.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0.9472
+scenarios:  2 | passed:  2 | failed:  0 | time: 0.6646
 ---------------------------------------------------------
 
-14:36:07.540 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:conduitApp/feature/HomePage.feature
+13:47:12.386 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:conduitApp/feature/HomePage.feature
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/homework.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 1.1488
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.9560
 ---------------------------------------------------------
 
-14:36:07.728 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 5 (2 remaining) classpath:conduitApp/feature/homework.feature
-14:36:07.731 [pool-3-thread-1] INFO  com.intuit.karate - Aftfer feature 
+13:47:12.577 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:conduitApp/feature/homework.feature
+13:47:12.580 [pool-3-thread-1] INFO  com.intuit.karate - Aftfer feature 
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/Hooks.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0.0471
+scenarios:  2 | passed:  2 | failed:  0 | time: 0.0347
 ---------------------------------------------------------
 
-14:36:07.934 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:conduitApp/feature/Hooks.feature
+13:47:12.916 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:conduitApp/feature/Hooks.feature
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/SignUp.feature
-scenarios:  7 | passed:  7 | failed:  0 | time: 1.9529
+scenarios:  7 | passed:  7 | failed:  0 | time: 1.7353
 ---------------------------------------------------------
 
-14:36:08.123 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:conduitApp/feature/SignUp.feature
+13:47:13.204 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:conduitApp/feature/SignUp.feature
 Karate version: 1.0.0
 ======================================================
-elapsed:   5.61 | threads:    5 | thread time: 6.96 
-features:     5 | skipped:    0 | efficiency: 0.25
-scenarios:   14 | passed:    12 | failed: 2
+elapsed:   6.37 | threads:    5 | thread time: 5.96 
+features:     5 | skipped:    0 | efficiency: 0.19
+scenarios:   14 | passed:    14 | failed: 0
 ======================================================
->>> failed features:
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  'Helman Tallhart'
-  'Clydas'
-
-classpath:conduitApp/feature/Articles.feature:43
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  1
-  2
-
-classpath:conduitApp/feature/homework.feature:63
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.0.0
 file:///C:/Users/azima.keshwani/Desktop/LearnKarate/target/karate-reports/karate-summary.html
 ===================================================================
 
 ]]></system-out>
+    <system-err><![CDATA[Apr 08, 2022 1:47:13 PM net.masterthought.cucumber.ReportBuilder generateErrorPage
+INFO: Unexpected error
+net.masterthought.cucumber.ValidationException: None report file was added!
+	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:61)
+	at net.masterthought.cucumber.ReportBuilder.generateReports(ReportBuilder.java:93)
+	at conduitApp.feature.ConduitTest.generateReport(ConduitTest.java:47)
+	at conduitApp.feature.ConduitTest.testParallel(ConduitTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$157/0000000000000000.apply(Unknown Source)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall$$Lambda$158/0000000000000000.apply(Unknown Source)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$$Lambda$292/0000000000000000.apply(Unknown Source)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$309/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$239/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$238/0000000000000000.invoke(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$237/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$243/0000000000000000.accept(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$239/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$238/0000000000000000.invoke(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$237/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$243/0000000000000000.accept(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$239/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$238/0000000000000000.invoke(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$237/0000000000000000.execute(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator$$Lambda$206/0000000000000000.accept(Unknown Source)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
   </testcase>
 </testsuite>

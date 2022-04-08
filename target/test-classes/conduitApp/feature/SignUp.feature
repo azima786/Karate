@@ -19,7 +19,7 @@ Feature: Sign up new user
 		
 
 
-       
+        @parallel=false
         Scenario Outline: New user sign up: Username taken
 * def randomEmail = dataGenerator.getRandomEmail()
 * def randomUserName = dataGenerator.getRandomUserName()
